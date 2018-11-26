@@ -7,22 +7,42 @@
 * ======================================================= */
 @charset "utf-8";
 /* =======================================================
+* font
+* ======================================================= */
+@font-face {
+  font-family: "Colfax";
+  src: url("/fonts/Colfax-Medium.woff") format("woff"),
+       url("/fonts/Colfax-Regular.woff") format("woff");
+}
+$font_koz: kozuka-mincho-pr6n, serif;
+$font_ryu: Ryumin Regular KL;
+$font_zen: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+$font_col: Ryumin Regular KL;
+/* =======================================================
 * common
 * ======================================================= */
-#top-img {
-  height: 55vh;
-  width: 100%;
-  padding-top: 84px;
-  img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
+body {
+  font-family: $font_koz;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: $font_ryu;
 }
 .other{
   .navbar {
     margin-bottom: 0;
     position: fixed;
     width: 100%;
+  }
+  #top-img {
+    height: 55vh;
+    width: 100%;
+    padding-top: 84px;
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
   }
 }

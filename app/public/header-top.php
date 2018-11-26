@@ -14,8 +14,17 @@
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.animateCssPlus.js"></script>
 <script type="text/javascript" src="/js/custom.js"></script>
-<script src="https://use.typekit.net/cph5eig.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'aej1vjg',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5bed4e2fe8c84e6b88ae64d2e90393a3" charset="utf-8"></script>
 </head>
 <body class="home blog hfeed">
 	<header>

@@ -6,19 +6,34 @@
 *
 * ======================================================= */
 /* =======================================================
+* font
+* ======================================================= */
+@font-face {
+  font-family: "Colfax";
+  src: url("/fonts/Colfax-Medium.woff") format("woff"), url("/fonts/Colfax-Regular.woff") format("woff"); }
+
+/* =======================================================
 * common
 * ======================================================= */
-#top-img {
-  height: 55vh;
-  width: 100%;
-  padding-top: 84px; }
-  #top-img img {
-    -o-object-fit: cover;
-    object-fit: cover;
-    height: 100%;
-    width: 100%; }
+body {
+  font-family: kozuka-mincho-pr6n, serif;
+  font-weight: 400;
+  font-style: normal; }
+
+h2 {
+  font-family: Ryumin Regular KL; }
 
 .other .navbar {
   margin-bottom: 0;
   position: fixed;
   width: 100%; }
+
+.other #top-img {
+  height: 55vh;
+  width: 100%;
+  padding-top: 84px; }
+  .other #top-img img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
