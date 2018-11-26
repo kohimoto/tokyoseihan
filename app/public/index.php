@@ -1,5 +1,5 @@
 <?php
-include("./header.php");
+include("./header-top.php");
 ?>
 <div id="main-img">
 	<div class="main-box row">

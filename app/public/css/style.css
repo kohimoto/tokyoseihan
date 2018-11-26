@@ -5,3 +5,20 @@
 * https://kohimoto.com
 *
 * ======================================================= */
+/* =======================================================
+* common
+* ======================================================= */
+#top-img {
+  height: 55vh;
+  width: 100%;
+  padding-top: 84px; }
+  #top-img img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
+
+.other .navbar {
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%; }
