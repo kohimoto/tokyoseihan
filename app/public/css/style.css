@@ -8,6 +8,12 @@
 /* =======================================================
 * common
 * ======================================================= */
+.wrap {
+  max-width: 1500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px; }
+
 #top-img {
   height: 55vh;
   width: 100%;
