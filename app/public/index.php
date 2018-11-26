@@ -3,6 +3,10 @@ include("./header-top.php");
 ?>
 <div class="wrap">
 	<div id="main">
+		<div class="main-txt">
+			<h1><span>株式会社</span>東京製版</h1>
+			<p>Hanko Production</p>
+		</div>
 		<div class="main-box">
 			<img src="/images/main.jpg" alt="東京製版">
 		</div>
