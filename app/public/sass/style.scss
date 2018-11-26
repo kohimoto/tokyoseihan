@@ -34,3 +34,14 @@ h2 {
   margin: 0 auto;
   padding: 15px;
 }
+.main{
+  height: 100vh;
+  .main-txt {
+    width: 115px;
+    float: left;
+  }
+  .main-box {
+    float: left;
+    width: calc(100% - 115px);
+  }
+}
