@@ -201,7 +201,10 @@ _:-ms-lang(x)::-ms-backdrop, header .logo-tag h1 svg {
   height: 52px;
 }
 header .logo-tag {
-  margin: 20px 0;
+  margin: 25px 0;
+}
+header .logo-tag h1 {
+  display: inline-block;
 }
 header .logo-tag a {
   display: block;
@@ -221,9 +224,6 @@ header .navbar-default .navbar-nav li a {
   padding: 86px 0 0;
   text-align: center;
   border-bottom: 3px solid #0068B7;
-}
-.logo-tag img {
-  width: 100%;
 }
 .navbar-default .navbar-toggle.collapsed {
   background: #fff;

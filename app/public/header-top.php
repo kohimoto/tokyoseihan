@@ -31,15 +31,17 @@
 					</button>
 					<div class="logo-tag">
 					<h1><a href="/"><img src="/images/logo.png" alt="東京製版"/></a></h1>
+          <span>Hanko Production</span>
 	  			</div>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<div class="menu">
 	    			<ul class="nav navbar-nav navbar-right">
-		    	 		<li class="mission"><a title="ミッション" href="/#mission">ミッション</a></li>
-	    	 			<li class="business"><a title="事業内容" href="/#business">事業内容</a></li>
-				 			<li class="profile"><a title="会社概要" href="/#profile">会社概要</a></li>
-	    				<li class="ask"><a title="お問合せ　" href="/#ask">お問合せ</a></li>
+              <li class="mission"><a title="ハンコの種類" href="/#products">ハンコの種類</a></li>
+	    	 			<li class="business"><a title="技術と品質" href="/#technology">技術と品質</a></li>
+				 			<li class="profile"><a title="企業情報" href="/#technology">企業情報</a></li>
+              <li class="profile"><a title="リクルート" href="/#recruit">リクルート</a></li>
+	    				<li class="ask"><a title="お問い合せ" href="/#contact">お問い合せ</a></li>
 	    			</ul>
 	    		</div>
 		  	</div> <!-- /.end of collaspe navbar-collaspe -->
