@@ -29,11 +29,11 @@ h2 {
   margin: 0 auto;
   padding: 15px; }
 
-.main {
+#main {
   height: 100vh; }
-  .main .main-txt {
+  #main .main-txt {
     width: 115px;
     float: left; }
-  .main .main-box {
+  #main .main-box {
     float: left;
     width: calc(100% - 115px); }
