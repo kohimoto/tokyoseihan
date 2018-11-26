@@ -1,6 +1,6 @@
 /* =======================================================
 *
-* 2018/08/27
+* 2018/11/26
 *	KOHIMOTO inc. Edit
 *
 * ======================================================= */
@@ -146,50 +146,6 @@ p {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-
-/*
-.btn {
-  position: relative;
-  z-index: 2;
-  background-color: #fff;
-  border: 2px solid #333;
-  color: #000;
-  line-height: 50px;
-  overflow: hidden;
-}
-.btn:hover {
-  color: #fff;
-}
-.btn::after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(.5);
-  transform: scale(.5);
-}
-.btn:hover::after {
-  background: #333;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-
-.btn p {
-  font-size: 1.5em;
-  line-height: 1;
-}
-
-*/
-/*
-.btn {
-  border-radius: 30px;
-  padding: 20px 60px;
-}
-a:hover .btn {
-  opacity: 0.7;
-}
-*/
 .navbar-default .navbar-nav > li > a {
     color: #000;
 }
@@ -236,6 +192,58 @@ a:hover .btn {
 /* =======================================================
 * contents
 * ======================================================= */
+header .logo-tag h1 svg {
+  width: 160px;
+  height: auto;
+  fill:#000;
+}
+_:-ms-lang(x)::-ms-backdrop, header .logo-tag h1 svg {
+  height: 52px;
+}
+header .logo-tag {
+  margin: 20px 0;
+}
+header .logo-tag a {
+  display: block;
+  line-height: 0;
+}
+header .navbar-default .navbar-nav li a {
+}
+header #main-img {
+  display: none;
+}
+header .navbar-default .navbar-nav li a {
+  margin: 0 25px;
+  padding-right: 0
+}
+.home header #main-img {
+  display: block;
+  padding: 86px 0 0;
+  text-align: center;
+  border-bottom: 3px solid #0068B7;
+}
+.logo-tag img {
+  width: 100%;
+}
+.navbar-default .navbar-toggle.collapsed {
+  background: #fff;
+}
+.animate-box {
+  opacity: 0;
+}
+@media (max-width: 1200px) {
+  header .logo-tag {
+    float: left;
+    margin: 8px 0 8px 15px;
+  }
+  .navbar-toggle {
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+  header .navbar-default .navbar-nav > li > a  {
+    padding: 24px 30px;
+  }
+}
 .main-box {
   position: relative;
   height: 100vh;
@@ -249,65 +257,7 @@ a:hover .btn {
   transform: translate(-50%, -50%);
   fill: #000;
 }
-#mission h3 span {
-  font-size: 1.3em;
-  padding-bottom: 10px;
-}
-#mission .plan picture {
-  pointer-events: none;
-}
-#business .plan_02 {
-  font-size: 0;
-  letter-spacing: 0;
-}
-#business .plan_02 .circle ,
-#business .plan_02 .line ,
-#business .plan_02 .list {
-  display: inline-block;
-  vertical-align: middle;
-}
-#business .plan_02 .line .pc {
-  fill: none;
-  stroke: #000;
-  stroke-width: 2px;
-  width: 111.883px;
-  height: 360.824px;
-}
-#business .plan_02 .line .sp {
-  display: none;
-}
-#business .plan_02 .list ul li {
-  text-align: left;
-  border: 2px solid #000;
-  padding: 20px;
-  margin-bottom: 30px;
-  background-color: #fff;
-}
-#business .plan_02 .list ul li h4 {
-  font-size: 24px;
-}
-#business .plan_02 .list ul li p {
-  font-size: 14px;
-}
-#ceo .plan_03 {
-  overflow: hidden;
-  max-width: 980px;
-  display: flex;
-  margin: 0 auto;
-  border: 1px solid #000;
-  padding: 4px;
-}
-#ceo .plan_03 img {
-  float: left;
-  border: 2px solid #000;
-}
-#ceo .plan_03 .text {
-  float: left;
-  color: #fff;
-  background-color: #000;
-  border: 2px solid #000;
-  padding: 50px;
-}
+
 .box {
   border-bottom: 1px solid #ddd;
   padding: 40px 0;
@@ -410,46 +360,7 @@ footer .sns_box .sns_item a svg.twitter {
     width: 60vw;
     min-width: 200px;
   }
-  #mission .plan picture img {
-    width: 90%;
-  }
-  #business .plan_02 .circle {
-    width: 240px;
-  }
-  #business .plan_02 .list ul {
-    display: flex;
-  }
-  #business .plan_02 .list ul li {
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 32%;
-    margin-left: 2%;
-    float: left;
-  }
-  #business .plan_02 .list ul li:first-child {
-    margin-left: 0;
-  }
-  #business .plan_02 .list ul li h4 {
-    font-size: 14px;
-  }
-  #business .plan_02 .list ul li p {
-    font-size: 10px;
-    word-break:break-all;
-  }
-  #business .plan_02 .line .pc {
-    display: none;
-  }
-  #business .plan_02 .line .sp {
-    display: block;
-    fill: none;
-    stroke: #000;
-    stroke-width: 2px;
-    width: 233px;
-    height: 72.25px;
-  }
-  #ceo .plan_03 {
-    display: block;
-  }
+
   .sd_04 .box {
     padding: 20px 0;
     margin-bottom: 0;
@@ -509,14 +420,6 @@ footer .sns_box .sns_item a svg.twitter {
   -webkit-animation-delay: 0s;
   -webkit-animation-duration: .4s;
   top: 0px;
-  /*opacity: 1;*/
-  /*
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  */
   transform-origin: 50% 50% 0;
 }
 @keyframes slideDown {
@@ -539,14 +442,6 @@ footer .sns_box .sns_item a svg.twitter {
   -webkit-animation-delay: 0s;
   -webkit-animation-duration: .4s;
   top: -88px;
-  /*opacity: 0;*/
-  /*
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  */
   transform-origin: 50% 50%  0;
 }
 @keyframes slideUp {
@@ -641,38 +536,6 @@ footer .sns_box .sns_item a svg.twitter {
     opacity: 0;
   }
 }
-
-/*
-_::-webkit-full-page-media, _:future, :root .className {
-
-  .navbar-default.navbar-fixed-top {
-    top:-88px;
-  }
-  .navbar-default.navbar-fixed-top.slide-down {
-    top: 0px;
-  }
-  @keyframes slideDown {
-    0% {
-      top: -88px;
-    }
-    100% {
-      top:0px;
-    }
-  }
-  .navbar-default.navbar-fixed-top.slide-up {
-    top:0px;
-  }
-  @keyframes slideUp {
-    0% {
-      top:0px;
-    }
-    100% {
-      top: -88px;
-    }
-  }
-}
-*/
-
 @media (max-width: 900px) {
   #section05 a span {
     width: 18px;
