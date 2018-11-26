@@ -43,3 +43,12 @@ header .navbar-default {
   text-align: center;
   margin: 0 auto;
   padding: 15px; }
+
+#main {
+  height: 100vh; }
+  #main .main-txt {
+    width: 115px;
+    float: left; }
+  #main .main-box {
+    float: left;
+    width: calc(100% - 115px); }

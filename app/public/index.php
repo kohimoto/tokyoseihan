@@ -1,7 +1,7 @@
 <?php
 include("./header.php");
 ?>
-<div class="wrap">
+<div class="wrap top">
 	<div id="main">
 		<div class="main-txt">
 			<h1><span>株式会社</span>東京製版</h1>
