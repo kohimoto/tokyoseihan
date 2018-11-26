@@ -29,7 +29,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<div class="logo-tag">
-					<h1><a href="/"><svg viewBox="0 0 636.17 184.74" class="reindeer"><use xlink:href="#logo"></use></svg></a></h1>
+					<h1><a href="/"><img src="/images/logo.png" alt="東京製版"/></a></h1>
 	  			</div>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,7 +37,6 @@
 	    			<ul class="nav navbar-nav navbar-right">
 		    	 		<li class="mission"><a title="ミッション" href="/#mission">ミッション</a></li>
 	    	 			<li class="business"><a title="事業内容" href="/#business">事業内容</a></li>
-	    	 			<!--li><a title="代表紹介" href="#ceo">代表紹介</a></li-->
 				 			<li class="profile"><a title="会社概要" href="/#profile">会社概要</a></li>
 	    				<li class="ask"><a title="お問合せ　" href="/#ask">お問合せ</a></li>
 	    			</ul>

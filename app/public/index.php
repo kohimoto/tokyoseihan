@@ -3,7 +3,7 @@ include("./header.php");
 ?>
 <div id="main-img">
 	<div class="main-box row">
-		<svg viewBox="0 0 636.17 184.74" width="636.17" height="184.74" class="reindeer"><use xlink:href="#logo"></use></svg>
+		<img src="/images/main.jpg" alt="東京製版">
 		<section id="section05" class="demo">
 	  <a href="#mission"><span></span></a>
 		</section>
