@@ -28,18 +28,3 @@ h2 {
   text-align: center;
   margin: 0 auto;
   padding: 15px; }
-
-.other .navbar {
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%; }
-
-.other #top-img {
-  height: 55vh;
-  width: 100%;
-  padding-top: 84px; }
-  .other #top-img img {
-    -o-object-fit: cover;
-    object-fit: cover;
-    height: 100%;
-    width: 100%; }

@@ -17,7 +17,6 @@
 $font_koz: kozuka-mincho-pr6n, serif;
 $font_ryu: Ryumin Regular KL;
 $font_zen: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-$font_col: Ryumin Regular KL;
 /* =======================================================
 * common
 * ======================================================= */
@@ -34,21 +33,4 @@ h2 {
   text-align: center;
   margin: 0 auto;
   padding: 15px;
-}
-.other{
-  .navbar {
-    margin-bottom: 0;
-    position: fixed;
-    width: 100%;
-  }
-  #top-img {
-    height: 55vh;
-    width: 100%;
-    padding-top: 84px;
-    img {
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-  }
 }
