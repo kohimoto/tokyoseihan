@@ -7,11 +7,8 @@
 <title>株式会社 澤田設計事務所</title>
 <meta name='description' content='External＆Internal Branding | “DATAマネージメント”をコアエンジンにし、エクスターナル領域とインターナル領域のブランディングを実現します。'>
 <meta name='keywords' content='澤田設計事務所,ブランディング,エクスターナル,インターナル,マネージメント,Branding,External,Internal,management'>
-<meta name='robots' content='noindex,follow' />
 <link rel='stylesheet' href='/css/bootstrap.css' type='text/css' media='all' />
-<link rel='stylesheet' href='/style.css' type='text/css' media='all' />
 <link rel='stylesheet' href='/css/reset.css' type='text/css' media='all' />
-<link rel='stylesheet' href='/css/adjust.css' type='text/css' media='all' />
 <script type="text/javascript" src="/js/customizer.js"></script>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.animateCssPlus.js"></script>
