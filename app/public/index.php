@@ -1,5 +1,5 @@
 <?php
-include("./header-top.php");
+include("./header.php");
 ?>
 <div class="wrap top">
 	<div id="main">
