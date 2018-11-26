@@ -23,6 +23,21 @@ body {
 h2 {
   font-family: Ryumin Regular KL; }
 
+header .navbar-default {
+  left: 0;
+  position: fixed;
+  top: 0;
+  -webkit-transition: transform 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  width: 100%; }
+
 .wrap {
   max-width: 1500px;
   text-align: center;
