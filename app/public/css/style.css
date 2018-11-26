@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* =======================================================
 *
 * 2018/11/26
@@ -15,13 +16,31 @@
 /* =======================================================
 * common
 * ======================================================= */
+html {
+  font-size: 20px; }
+
 body {
   font-family: kozuka-mincho-pr6n, serif;
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  letter-spacing: 0.24rem; }
 
 h2 {
-  font-family: Ryumin Regular KL; }
+  font-family: Ryumin Regular KL;
+  font-size: 2rem;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl; }
+  h2 span {
+    color: #646464;
+    font-size: 0.8rem;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl; }
+    h2 span:after {
+      width: 1px;
+      height: 40px;
+      background-color: #646464; }
 
 .wrap {
   max-width: 1500px;
@@ -29,11 +48,33 @@ h2 {
   margin: 0 auto;
   padding: 15px; }
 
+.main-txt {
+  width: 200px;
+  float: left; }
+
+.main-box {
+  float: left;
+  width: calc(100% - 200px); }
+
 #main {
-  height: 100vh; }
-  #main .main-txt {
-    width: 115px;
-    float: left; }
-  #main .main-box {
-    float: left;
-    width: calc(100% - 115px); }
+  height: calc(100vh - 15px);
+  overflow: hidden; }
+  #main .main-txt h1 {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 2rem;
+    padding: 0 60px 110px; }
+    #main .main-txt h1 span {
+      font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+      color: #646464;
+      font-size: 1.1rem; }
+  #main .main-txt p {
+    font-size: 0.6rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    color: #646464; }
+  #main .main-box img {
+    width: 100%; }
+
+#mission {
+  overflow: hidden; }

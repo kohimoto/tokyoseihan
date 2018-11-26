@@ -11,17 +11,21 @@ include("./header.php");
 			<img src="/images/main.jpg" alt="東京製版">
 		</div>
 	</div>
-	<div id="mission" class="row">
-	  <h2>ミッション</h2>
-		<h3><span>“設計” ＝ Design</span><br>
-	われわれは事業ブランドを設計し創りあげる会社。<br>
-	企業がもつ“ロイヤル顧客”という資産で、<br>
-	企業の収益基盤へつなぐBrand を創ります。<br>
-	そのためにエクスターナル領域にとどまらず、<br>
-	インターナル領域もふくめたBrand設計を行います。<br>
-	</h3>
+	<div id="mission">
+		<div class="main-txt">
+	  	<h2><span>MISSION</span><br>ミッション</h2>
+		</div>
+		<div class="main-box">
+			<h4>新しい技術に挑み、新しい時代と戦う</h4>
+			<p>私ども、株式会社東京製版は、創業より多彩で実用的な別製ゴム印の製造を中心に、
+業務を展開し、その製造においては、関東最大の工場設備と生産力を誇るほどに成長しました。
+しかしながら、めまぐるしい速度で変化を続ける現代において、求められるニーズもますます多様化しており、
+より便利で、より手軽、より優れたたものへと常に進化し高度化しています。
+私どもは、現在に慢心することなく、独自の経験や実績を生かしながら、いつも一歩先を見つめ、
+また、チャレンジ精神で突き進むことが、当社の歩むべき道と確信しております。</p>
+		</div>
 	</div>
-	<div id="products" class="row gray">
+	<div id="products">
 	  <h2>ハンコの種類</h2>
 		<h3>“DATAマネージメント”をコアエンジンにし、<br>
 	External＆internalのブランディングを実現します。</h3>
@@ -35,7 +39,7 @@ include("./header.php");
 			</div>
 		</div>
 	</div>
-	<div id="news" class="row">
+	<div id="news">
 	  <h2>お知らせ</h2>
 		<div class="sd_04">
 			<div class="box">
