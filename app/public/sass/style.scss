@@ -39,6 +39,9 @@ header {
     transform: translateY(-100%);
     width: 100%;
   }
+  .navbar-default.sticky {
+    transform: translateY(0);
+  }
 }
 .wrap {
   max-width: 1500px;

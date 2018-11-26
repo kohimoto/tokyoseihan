@@ -10,9 +10,9 @@
 <link rel='stylesheet' href='/css/bootstrap.css' type='text/css' media='all' />
 <link rel='stylesheet' href='/css/reset.css' type='text/css' media='all' />
 <link rel='stylesheet' href='/css/style.css' type='text/css' media='all' />
-<script type="text/javascript" src="/js/customizer.js"></script>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.animateCssPlus.js"></script>
+<script type="text/javascript" src="/js/jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="/js/custom.js"></script>
 <script>
   (function(d) {
@@ -27,7 +27,7 @@
 <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5bed4e2fe8c84e6b88ae64d2e90393a3" charset="utf-8"></script>
 </head>
 <body class="other">
-	<header>
+	<header class="header">
 	<section class="logo-menu">
 		<nav class="navbar navbar-default">
 			<div class="container">
