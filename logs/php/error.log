@@ -1,0 +1,8 @@
+[21-Nov-2018 08:14:23 UTC] PHP Warning:  include(./header.html): failed to open stream: No such file or directory in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:14:23 UTC] PHP Warning:  include(): Failed opening './header.html' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:18:38 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:18:38 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:18:40 UTC] PHP Warning:  include(/app/public/header.html): failed to open stream: No such file or directory in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:18:40 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:18:48 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /app/public/contact/index.php on line 2
+[21-Nov-2018 08:18:48 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/contact/index.php on line 2
