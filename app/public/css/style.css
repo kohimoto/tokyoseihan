@@ -23,6 +23,12 @@ body {
 h2 {
   font-family: Ryumin Regular KL; }
 
+.wrap {
+  max-width: 1500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px; }
+
 .other .navbar {
   margin-bottom: 0;
   position: fixed;
