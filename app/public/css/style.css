@@ -66,6 +66,11 @@ header .navbar-default {
   transform: translateY(-100%);
   width: 100%; }
 
+header .navbar-default.sticky {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0); }
+
 .wrap {
   max-width: 1500px;
   text-align: center;

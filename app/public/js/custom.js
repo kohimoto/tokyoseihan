@@ -25,38 +25,17 @@ $(function(){
 
 
   //header slide Down & Up
- var flag = "up";
 
- $(window).on("scroll", function () {
-   var doch = $(document).innerHeight();
-   var winh = $(window).innerHeight();
-   var bottom = doch - winh;
-
-   if ($(this).scrollTop() > 400) {
-     if (flag === "up") {
-       $(".navbar-default.navbar-fixed-top").removeClass("slide-up");
-       $(".navbar-default.navbar-fixed-top").addClass("slide-down");
-       flag = "down";
-     }
-
- if (bottom <= $(this).scrollTop()) {
-   if (flag === "down") {
-   $(".navbar-default.navbar-fixed-top").removeClass("slide-down");
-   $(".navbar-default.navbar-fixed-top").addClass("slide-up");
-   flag = "up";
-  }
- }
-
-
-   } else {
-     if (flag === "down") {
-       $(".navbar-default.navbar-fixed-top").removeClass("slide-down");
-       $(".navbar-default.navbar-fixed-top").addClass("slide-up");
-       flag = "up";
-     }
-   }
-
-
- });
+ 	// Global Sticky
+  var waypointsHideGlobal = $('#mission').waypoint({
+		handler: function(direction) {
+      if(direction === 'down'){
+				$('.navbar-default').addClass('sticky');
+      }else{
+      	$('.navbar-default').removeClass('sticky');
+      }
+		},
+  	offset: '0'
+	});
 
   });
