@@ -123,6 +123,7 @@ header .logo-tag span {
     left: 50%; }
 
 #mission {
+  padding: 5rem;
   overflow: hidden; }
   #mission .main-box h4 {
     font-size: 0.7rem; }
