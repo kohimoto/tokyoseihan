@@ -159,7 +159,7 @@ include("./header.php");
 		</div>
 		<div class="container">
 			<div class="main-txt">
-	  <h2><span>NEWS</span><br>お知らせ</h2>
+	  	<h2><span>NEWS</span><br>お知らせ</h2>
 			</div>
 			<div class="main-box">
 				<article class="date-box">
@@ -179,6 +179,9 @@ include("./header.php");
 					</div>
 				</article>
 			</div>
+		</div>
+		<div class="scroll-top">
+			<a href="#"><img src="/images/top.png" alt="トップ"></a>
 		</div>
 	</div>
 </div>
