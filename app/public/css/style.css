@@ -55,6 +55,9 @@ h2 {
   margin: 0 auto;
   padding: 0; }
 
+h4 {
+  font-weight: normal; }
+
 header .container {
   line-height: 1; }
 
