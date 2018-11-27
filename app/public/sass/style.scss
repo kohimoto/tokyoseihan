@@ -93,33 +93,41 @@ header {
   }
 }
 
-
 #main{
   height: calc(100vh - 15px);
   overflow: hidden;
+  position:relative;
   .main-txt {
+    height: calc(100vh - 15px);
      h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 60px 110px;
-      span {
-        font-family: $font_zen;
-        color: $gray_color;
-        font-size:1.1rem;
-      }
+      padding: 0 50px 110px;
+      position: absolute;
+      top: 16%;
      }
     p {
       font-size: 0.6rem;
       font-family: $font_zen;
       color: $gray_color;
+      position: absolute;
+      bottom: 10%;
+      letter-spacing: 0;
+      padding: 0 44px;
     }
   }
   .main-box {
     img {
       width: 100%;
+      height: calc(100vh - 15px);
     }
+  }
+  .scroll {
+    position: absolute;
+    bottom:20px;
+    left:50%;
   }
 }
 

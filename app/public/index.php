@@ -4,11 +4,14 @@ include("./header.php");
 <div class="wrap top">
 	<div id="main">
 		<div class="main-txt">
-			<h1><img src="/images/tokyoseihan_in.png" alt="TOKYOSEIHAN"><span>株式会社</span>東京製版</h1>
+			<h1><img src="/images/top_logo.png" alt="株式会社東京製版"></h1>
 			<p>Hanko Production</p>
 		</div>
 		<div class="main-box">
 			<img src="/images/main.jpg" alt="東京製版">
+		</div>
+		<div class="scroll">
+			<img src="/images/scroll.png" alt="SCROLL">
 		</div>
 	</div>
 	<div id="mission">

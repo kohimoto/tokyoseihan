@@ -90,23 +90,33 @@ header .navbar-default.sticky {
 
 #main {
   height: calc(100vh - 15px);
-  overflow: hidden; }
-  #main .main-txt h1 {
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    font-size: 2rem;
-    padding: 0 60px 110px; }
-    #main .main-txt h1 span {
+  overflow: hidden;
+  position: relative; }
+  #main .main-txt {
+    height: calc(100vh - 15px); }
+    #main .main-txt h1 {
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      font-size: 2rem;
+      padding: 0 50px 110px;
+      position: absolute;
+      top: 16%; }
+    #main .main-txt p {
+      font-size: 0.6rem;
       font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
       color: #646464;
-      font-size: 1.1rem; }
-  #main .main-txt p {
-    font-size: 0.6rem;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-    color: #646464; }
+      position: absolute;
+      bottom: 10%;
+      letter-spacing: 0;
+      padding: 0 44px; }
   #main .main-box img {
-    width: 100%; }
+    width: 100%;
+    height: calc(100vh - 15px); }
+  #main .scroll {
+    position: absolute;
+    bottom: 20px;
+    left: 50%; }
 
 #mission {
   overflow: hidden; }
