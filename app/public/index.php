@@ -62,6 +62,25 @@ include("./header.php");
 				</div>
 			</div>
 		</div>
+		<div class="sub-container">
+			<h3>ゴム印</h3>
+			<p>印面が天然ゴムによる赤ゴムと、
+耐油性のある黒ゴム素材のもの、
+またはゴムではない
+半透明の合成樹脂を使ったスタンプ。</p>
+			<div class="gomu">
+				<article class="detail_1">
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="">
+					</div>
+					<div class="txt">
+						<h4>「のべ台」</h4>
+						<p>一番オーソドックスな木製の四角い台木。<br>小さな氏名用のハンコから、<br>大きな枠付きのものまで、<br>幅広く対応しています。</p>
+					</div>
+				</article>
+			</div>
+
+		</div>
 	</div>
 	<div id="news">
 		<div class="main-img">

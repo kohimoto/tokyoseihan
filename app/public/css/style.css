@@ -189,6 +189,9 @@ header .menu {
           width: 50%;
           float: left; }
 
+#products .sub-container {
+  padding: 8.5rem; }
+
 #news .container {
   padding: 8.5rem 0; }
   #news .container .main-box .date-box {
