@@ -49,24 +49,14 @@ h2 {
     content: "";
     position: absolute;
     right: 20px;
-    top: 50%;
+    bottom: 50%;
     display: block;
     width: 1px;
-    height: 60px;
+    height: 40px;
     margin: auto;
     background: $gray_color;
   }
 }
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 0;
-}
-h4 {
-  font-weight: normal;
-}
-
-
 header {
   .container {
     line-height: 1;
@@ -81,7 +71,7 @@ header {
     transform: translateY(-100%);
     width: 100%;
     background-color: rgba(255,255,255,0.5);
-    border: 0;
+    border-bottom: 0;
   }
   .navbar-default.sticky {
     transform: translateY(0);
@@ -138,12 +128,16 @@ header {
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 180px 50px;
+      padding: 0 50px 110px;
+      position: absolute;
+      top: 16%;
      }
     p {
       font-size: 0.6rem;
       font-family: $font_zen;
       color: $gray_color;
+      position: absolute;
+      bottom: 10%;
       letter-spacing: 0;
       padding: 0 44px;
     }
@@ -161,33 +155,21 @@ header {
   }
 }
 #mission {
-  padding: 10rem 0 8.5rem;
+  padding: 10rem;
   overflow:hidden;
   .main-box {
-      text-align: left;
     h4 {
       font-size: 0.7rem;
-      padding-bottom: 2.5rem;
     }
     p {
       font-size: 0.6rem;
-      line-height: 3;
     }
   }
 }
-#products {
-  .container{
-    padding: 8.5rem 0;
-    .main-box {
-      text-align: left;
-      h4 {
-        font-size: 0.7rem;
-        padding-bottom: 2.5rem;
-      }
-      p {
-        font-size: 0.6rem;
-        line-height: 3;
-      }
+.other {
+  #main {
+    img {
+      width: 100%;
     }
   }
 }

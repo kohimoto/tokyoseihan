@@ -43,20 +43,12 @@ h2 {
     content: "";
     position: absolute;
     right: 20px;
-    top: 50%;
+    bottom: 50%;
     display: block;
     width: 1px;
-    height: 60px;
+    height: 40px;
     margin: auto;
     background: #646464; }
-
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 0; }
-
-h4 {
-  font-weight: normal; }
 
 header .container {
   line-height: 1; }
@@ -76,7 +68,7 @@ header .navbar-default {
   transform: translateY(-100%);
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
-  border: 0; }
+  border-bottom: 0; }
 
 header .navbar-default.sticky {
   -webkit-transform: translateY(0);
@@ -128,11 +120,15 @@ header .menu {
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 180px 50px; }
+      padding: 0 50px 110px;
+      position: absolute;
+      top: 16%; }
     #main .main-txt p {
       font-size: 0.6rem;
       font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
       color: #646464;
+      position: absolute;
+      bottom: 10%;
       letter-spacing: 0;
       padding: 0 44px; }
   #main .main-box img {
@@ -144,24 +140,12 @@ header .menu {
     left: 50%; }
 
 #mission {
-  padding: 10rem 0 8.5rem;
+  padding: 10rem;
   overflow: hidden; }
-  #mission .main-box {
-    text-align: left; }
-    #mission .main-box h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem; }
-    #mission .main-box p {
-      font-size: 0.6rem;
-      line-height: 3; }
+  #mission .main-box h4 {
+    font-size: 0.7rem; }
+  #mission .main-box p {
+    font-size: 0.6rem; }
 
-#products .container {
-  padding: 8.5rem 0; }
-  #products .container .main-box {
-    text-align: left; }
-    #products .container .main-box h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem; }
-    #products .container .main-box p {
-      font-size: 0.6rem;
-      line-height: 3; }
+.other #main img {
+  width: 100%; }
