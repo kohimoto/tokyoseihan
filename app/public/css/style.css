@@ -196,17 +196,70 @@ header.sticky_point .navbar-default {
           float: left; }
 
 #products .sub-container {
-  padding: 8.5rem; }
+  padding: 0 8.5rem; }
+  #products .sub-container .inner-txt {
+    font-family: kozuka-mincho-pr6n, serif;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-align: left;
+    float: right; }
+    #products .sub-container .inner-txt h3 {
+      font-size: 2.5rem;
+      padding: 2% 15% 0 2%;
+      line-height: 1.3; }
+    #products .sub-container .inner-txt span {
+      border-right: 1px solid;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      height: 215px;
+      display: block;
+      margin: 2% 0; }
+    #products .sub-container .inner-txt p {
+      font-size: 0.6rem;
+      padding: 2% 5% 0 0;
+      line-height: 2.5; }
   #products .sub-container .gomu {
     position: relative;
-    height: 1000px; }
+    height: 2600px; }
     #products .sub-container .gomu .detail {
       position: absolute;
       width: 640px; }
       #products .sub-container .gomu .detail.a01 {
-        right: 80px; }
+        right: 380px; }
         #products .sub-container .gomu .detail.a01 .txt {
           padding-top: 200px; }
+      #products .sub-container .gomu .detail.a02 {
+        top: 440px;
+        right: 0px; }
+        #products .sub-container .gomu .detail.a02 .txt {
+          padding-top: 80px; }
+      #products .sub-container .gomu .detail.a03 {
+        top: 720px;
+        left: 0; }
+        #products .sub-container .gomu .detail.a03 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a04 {
+        top: 1040px;
+        right: 0; }
+        #products .sub-container .gomu .detail.a04 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a05 {
+        top: 1300px;
+        left: 0; }
+        #products .sub-container .gomu .detail.a05 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a06 {
+        top: 1560px;
+        right: 0; }
+        #products .sub-container .gomu .detail.a06 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a07 {
+        top: 2000px;
+        left: 200px; }
+        #products .sub-container .gomu .detail.a07 .txt {
+          padding-top: 160px; }
       #products .sub-container .gomu .detail .img {
         width: 371px;
         float: left; }

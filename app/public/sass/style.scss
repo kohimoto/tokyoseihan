@@ -225,17 +225,86 @@ header {
     }
   }
   .sub-container {
-    padding: 8.5rem;
+    .inner-txt {
+    font-family: $font_koz;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-align: left;
+    float: right;
+    h3 {
+      font-size: 2.5rem;
+      padding: 2% 15% 0 2%;
+      line-height: 1.3;
+    }
+    span {
+      border-right: 1px solid;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      height: 215px;
+      display: block;
+      margin: 2% 0;
+    }
+    p {
+      font-size: 0.6rem;
+      padding: 2% 5% 0 0;
+      line-height: 2.5;
+    }
+  }
+    padding:0 8.5rem;
     .gomu {
       position: relative;
-      height: 1000px;
+      height: 2600px;
       .detail {
         position: absolute;
         width: 640px;
         &.a01{
-          right: 80px;
+          right: 380px;
           .txt{
             padding-top: 200px;
+          }
+        }
+        &.a02{
+          top: 440px;
+          right: 0px;
+          .txt{
+            padding-top: 80px;
+          }
+        }
+        &.a03{
+          top: 720px;
+          left: 0;
+          .txt{
+            padding-top: 160px;
+          }
+        }
+        &.a04{
+          top: 1040px;
+          right: 0;
+          .txt{
+            padding-top: 160px;
+          }
+        }
+        &.a05{
+          top: 1300px;
+          left: 0;
+          .txt{
+            padding-top: 160px;
+          }
+        }
+        &.a06{
+          top: 1560px;
+          right: 0;
+          .txt{
+            padding-top: 160px;
+          }
+        }
+        &.a07{
+          top: 2000px;
+          left: 200px;
+          .txt{
+            padding-top: 160px;
           }
         }
         .img {
