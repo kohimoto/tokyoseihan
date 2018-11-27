@@ -16,6 +16,9 @@
 /* =======================================================
 * common
 * ======================================================= */
+html {
+  font-size: 20px; }
+
 body {
   font-family: kozuka-mincho-pr6n, serif;
   font-weight: 400;
@@ -100,7 +103,7 @@ header .logo-tag span {
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 50px 110px;
+      padding: 0 0 110px;
       position: absolute;
       top: 16%; }
     #main .main-txt p {
@@ -109,8 +112,7 @@ header .logo-tag span {
       color: #646464;
       position: absolute;
       bottom: 10%;
-      letter-spacing: 0;
-      padding: 0 44px; }
+      letter-spacing: 0; }
   #main .main-box img {
     width: 100%;
     height: calc(100vh - 15px); }

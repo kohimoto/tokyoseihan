@@ -21,6 +21,9 @@ $gray_color: #646464;
 /* =======================================================
 * common
 * ======================================================= */
+html {
+  font-size: 20px;
+}
 body {
   font-family: $font_koz;
   font-weight: 400;
@@ -105,7 +108,7 @@ header {
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 50px 110px;
+      padding: 0 0 110px;
       position: absolute;
       top: 16%;
      }
@@ -116,7 +119,6 @@ header {
       position: absolute;
       bottom: 10%;
       letter-spacing: 0;
-      padding: 0 44px;
     }
     width: 115px;
     float: left;
