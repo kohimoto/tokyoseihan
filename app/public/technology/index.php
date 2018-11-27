@@ -21,7 +21,7 @@ include("../header.php");
   <div class="img-box">
     <div class="row">
       <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
+      <div class="inner-txt col-sm-6 animate-box">
         <h3>ゴム印<br>製造過程</h3>
         <span></span>
         <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
