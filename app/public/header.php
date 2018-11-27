@@ -46,11 +46,11 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<div class="menu">
 	    			<ul class="nav navbar-nav navbar-right">
-		    	 		<li class="mission"><a title="ハンコの種類" href="/#products">ハンコの種類</a></li>
-	    	 			<li class="business"><a title="技術と品質" href="/#technology">技術と品質</a></li>
-				 			<li class="profile"><a title="企業情報" href="/#technology">企業情報</a></li>
-              <li class="profile"><a title="リクルート" href="/#recruit">リクルート</a></li>
-	    				<li class="ask"><a title="お問い合せ" href="/#contact">お問い合せ</a></li>
+		    	 		<li class="products"><a title="ハンコの種類" href="/#products">ハンコの種類</a></li>
+	    	 			<li class="technology"><a title="技術と品質" href="/#technology">技術と品質</a></li>
+				 			<li class="corporate"><a title="企業情報" href="/#corporate">企業情報</a></li>
+              <li class="recruit"><a title="リクルート" href="/#recruit">リクルート</a></li>
+	    				<li class="contact"><a title="お問い合せ" href="/#contact">お問い合わせ</a></li>
 	    			</ul>
 	    		</div>
 		  	</div> <!-- /.end of collaspe navbar-collaspe -->
