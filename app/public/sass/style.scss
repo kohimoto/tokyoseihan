@@ -392,6 +392,7 @@ header {
     height: auto;
     img {
       width: 100%;
+      display: block;
     }
   }
 }
@@ -442,6 +443,7 @@ header {
       font-size: 0.6rem;
       padding: 2% 5% 0 0;
       line-height: 2.5;
+      word-break: keep-all;
     }
     span {
       border-right: 1px solid;

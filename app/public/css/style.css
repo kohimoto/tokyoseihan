@@ -312,7 +312,8 @@ header.sticky_point .navbar-default {
   .other_page #main {
     height: auto; }
     .other_page #main img {
-      width: 100%; }
+      width: 100%;
+      display: block; }
 
 #technology {
   padding: 10rem 0 8.5rem;
@@ -352,7 +353,8 @@ header.sticky_point .navbar-default {
     .img-box .inner-txt p {
       font-size: 0.6rem;
       padding: 2% 5% 0 0;
-      line-height: 2.5; }
+      line-height: 2.5;
+      word-break: keep-all; }
     .img-box .inner-txt span {
       border-right: 1px solid;
       -webkit-writing-mode: vertical-rl;
