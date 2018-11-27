@@ -274,8 +274,8 @@ header {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  grid-column-gap: 0;
-  margin-bottom: 115px;
+  grid-gap: 0;
+  margin-bottom: 105px;
   .inner-img {
     line-height: 1;
     img {
@@ -301,11 +301,20 @@ header {
       line-height: 2.5;
     }
     span {
-      border: 0.5px solid;
+      border-right: 1px solid;
       writing-mode: vertical-rl;
       height: 215px;
       display: block;
       margin: 2% 0;
     }
+  }
+}
+.mov-box {
+  margin-bottom: 105px;
+  img {
+    width: 100%;
+  }
+  &.last-box {
+    margin-bottom: 242px;
   }
 }

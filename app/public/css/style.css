@@ -228,8 +228,8 @@ header .menu {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  grid-column-gap: 0;
-  margin-bottom: 115px; }
+  grid-gap: 0;
+  margin-bottom: 105px; }
   .img-box .inner-img {
     line-height: 1; }
     .img-box .inner-img img {
@@ -251,10 +251,17 @@ header .menu {
       padding: 2% 5% 0 0;
       line-height: 2.5; }
     .img-box .inner-txt span {
-      border: 0.5px solid;
+      border-right: 1px solid;
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       height: 215px;
       display: block;
       margin: 2% 0; }
+
+.mov-box {
+  margin-bottom: 105px; }
+  .mov-box img {
+    width: 100%; }
+  .mov-box.last-box {
+    margin-bottom: 242px; }
