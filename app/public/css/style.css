@@ -55,8 +55,6 @@ h2 {
   margin: 0 auto;
   padding: 0; }
 
-  header .container {
-    line-height: 1; }
 header .navbar-default {
   left: 0;
   position: fixed;

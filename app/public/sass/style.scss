@@ -83,6 +83,9 @@ header {
     transform: translateY(0);
   }
   .logo-tag {
+    h1 {
+      vertical-align: middle;
+    }
     span {
       font-size: 0.60rem;
     }
@@ -156,17 +159,14 @@ header {
   }
 }
 #mission {
-  padding: 10rem 0 6rem;
+  padding: 10rem;
   overflow:hidden;
   .main-box {
-    text-align: left;
     h4 {
       font-size: 0.7rem;
-      padding-bottom: 2.5rem;
     }
     p {
       font-size: 0.6rem;
-      line-height: 3;
     }
   }
 }
