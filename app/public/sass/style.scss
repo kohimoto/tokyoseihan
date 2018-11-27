@@ -134,16 +134,12 @@ header {
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 50px 110px;
-      position: absolute;
-      top: 16%;
+      padding: 180px 50px;
      }
     p {
       font-size: 0.6rem;
       font-family: $font_zen;
       color: $gray_color;
-      position: absolute;
-      bottom: 10%;
       letter-spacing: 0;
       padding: 0 44px;
     }
