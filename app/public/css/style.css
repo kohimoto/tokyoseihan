@@ -367,6 +367,7 @@ header.sticky_point .navbar-default {
 .mov-box {
   margin-bottom: 105px; }
   .mov-box img {
-    width: 100%; }
+    width: 100%;
+    display: block; }
   .mov-box.last-box {
     margin-bottom: 242px; }
