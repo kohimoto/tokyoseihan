@@ -37,5 +37,6 @@ $(function(){
 		},
   	offset: '0'
 	});
+  $('.other_page').prev('header').addClass('sticky_point');
 
   });
