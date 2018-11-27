@@ -177,3 +177,5 @@ header .menu {
 
 .other_page #main {
   height: auto; }
+  .other_page #main img {
+    width: 100%; }
