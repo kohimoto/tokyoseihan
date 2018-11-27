@@ -17,31 +17,6 @@
 		</div>
 	</div>
 </footer>
-<div class="svg_org">
-	<svg xmlns="http://www.w3.org/2000/svg">
-		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-symbol" id="line">
-			<g transform="translate(-667.438 -2989.688)">
-		    <line x2="111.883" transform="translate(667.438 3163.308)"/>
-		    <line x1="47.95" transform="translate(731.37 2990.688)"/>
-		    <line x1="47.95" transform="translate(731.37 3349.513)"/>
-		    <line y2="358.824" transform="translate(731.37 2990.688)"/>
-		  </g>
-		</symbol>
-	</svg>
-	<svg xmlns="http://www.w3.org/2000/svg">
-		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-symbol" id="line_sp">
-			<g transform="translate(3194.513 -8704.438) rotate(90)">
-		    <line x2="111.883" transform="translate(8704.438 3007.308)"/>
-		    <line x1="47.95" transform="translate(8768.37 2834.688)"/>
-		    <line x1="47.95" transform="translate(8768.37 3193.513)"/>
-		    <line y2="358.824" transform="translate(8768.37 2834.688)"/>
-		    <line x2="111.883" transform="translate(8704.438 3007.308)"/>
-		    <line x1="47.95" transform="translate(8768.37 2834.688)"/>
-		    <line y2="358.824" transform="translate(8768.37 2834.688)"/>
-			</g>
-		</symbol>
-	</svg>
-</div>
 <script type='text/javascript' src='js/bootstrap.js?ver=1.0.0'></script>
 <script type='text/javascript' src='js/script.js?ver=1.0.0'></script>
 </body>

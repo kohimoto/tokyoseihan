@@ -4,9 +4,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>株式会社 澤田設計事務所</title>
-<meta name='description' content='External＆Internal Branding | “DATAマネージメント”をコアエンジンにし、エクスターナル領域とインターナル領域のブランディングを実現します。'>
-<meta name='keywords' content='澤田設計事務所,ブランディング,エクスターナル,インターナル,マネージメント,Branding,External,Internal,management'>
+<title>株式会社 東京製版</title>
+<meta name='description' content=''>
+<meta name='keywords' content=''>
 <link rel='stylesheet' href='/css/bootstrap.css' type='text/css' media='all' />
 <link rel='stylesheet' href='/css/reset.css' type='text/css' media='all' />
 <link rel='stylesheet' href='/css/style.css' type='text/css' media='all' />
