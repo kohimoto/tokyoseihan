@@ -17,32 +17,16 @@
 $font_koz: kozuka-mincho-pr6n, serif;
 $font_ryu: Ryumin Regular KL;
 $font_zen: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-$gray_color: #646464;
 /* =======================================================
 * common
 * ======================================================= */
-html {
-  font-size: 20px;
-}
 body {
   font-family: $font_koz;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.24rem;
 }
 h2 {
   font-family: $font_ryu;
-  font-size: 2rem;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-  span {
-    color: $gray_color;
-    font-size: 0.8rem;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-  }
 }
 header {
   .navbar-default {
@@ -58,6 +42,12 @@ header {
   .navbar-default.sticky {
     transform: translateY(0);
   }
+  .logo-tag {
+    span {
+      font-size: 0.60rem;
+    }
+  }
+
 }
 .wrap {
   max-width: 1500px;
@@ -65,50 +55,14 @@ header {
   margin: 0 auto;
   padding: 15px;
 }
-.main-txt {
-  width: 200px;
-  float: left;
-}
-.main-box {
-  float: left;
-  width: calc(100% - 200px);
-}
 #main{
-  height: calc(100vh - 15px);
-  overflow: hidden;
+  height: 100vh;
   .main-txt {
-     h1 {
-      -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
-      font-size: 2rem;
-      padding: 0 60px 110px;;
-      span{
-      font-family: $font_zen;
-      color: $gray_color;
-      font-size:1.1rem;
-      }
-     }
-    p {
-      font-size: 0.6rem;
-      font-family: $font_zen;
-      color: $gray_color;
-    }
+    width: 115px;
+    float: left;
   }
   .main-box {
-    img {
-      width: 100%;
-    }
+    float: left;
+    width: calc(100% - 115px);
   }
-}
-
-#mission {
-  overflow:hidden;
-  .main-box {
-    h4 {
-      font-size: 0.7rem;
-    }
-    p {
-      font-size: 0.6rem;
-    }
 }
