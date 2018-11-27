@@ -219,6 +219,28 @@ header {
     }
   }
 }
+#news{
+  .container{
+    padding: 8.5rem 0;
+    .main-box{
+      .date-box{
+        overflow: hidden;
+        font-size: 0.6rem;
+        text-align: left;
+        padding: 0.5rem;
+        .date{
+          float: left;
+          width: 5rem;
+        }
+        .txt{
+          float: left;
+        }
+      }
+    }
+  }
+}
+
+
 .other_page {
   #main {
     height: auto;

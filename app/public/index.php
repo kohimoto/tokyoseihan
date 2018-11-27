@@ -72,27 +72,22 @@ include("./header.php");
 	  <h2><span>NEWS</span><br>お知らせ</h2>
 			</div>
 			<div class="main-box">
-				<h4>ダミーダミー</h4>
-				<p>ハンコの歴史は意外に古く...東京製版ハンコゴム印浸透印東京製版ハンコゴム印浸透印
-...用途によって様々なハンコがあります。(ダミーテキストダミーテキストダミーテキスト)</p>
-				<div class="box">
-					<h4>ゴム印</h4>
-					<ul>
-						<li><a href="#">のべ台</a></li>
-						<li><a href="#">ニギリ台</a></li>
-						<li><a href="#">のべ台</a></li>
-						<li><a href="#">あああああ</a></li>
-						<li><a href="#">のべ台</a></li>
-						<li><a href="#">いいい</a></li>
-						<li><a href="#">のべ台</a></li>
-					</ul>
-				</div>
-				<div class="box">
-					<h4>ゴム印</h4>
-					<ul>
-						<li><a href="#">のべ台</a></li>
-					</ul>
-				</div>
+				<article class="date-box">
+					<div class="date">
+						<span>2019.1.1</span>
+					</div>
+					<div class="txt">
+						<p>ホームページをリニューアル致しました。</p>
+					</div>
+				</article>
+				<article class="date-box">
+					<div class="date">
+						<span>2019.1.1</span>
+					</div>
+					<div class="txt">
+						<p>新しいサービス「XXXXXXXXX」を開始いたしました。</p>
+					</div>
+				</article>
 			</div>
 		</div>
 	</div>
