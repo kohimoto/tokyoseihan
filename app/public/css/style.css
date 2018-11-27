@@ -179,3 +179,17 @@ header .menu {
   height: auto; }
   .other_page #main img {
     width: 100%; }
+
+#technology {
+  padding: 10rem 0 8.5rem;
+  overflow: hidden; }
+  #technology h2::after {
+    top: 100%; }
+  #technology .main-box {
+    text-align: left; }
+    #technology .main-box h4 {
+      font-size: 0.7rem;
+      padding-bottom: 2.5rem; }
+    #technology .main-box p {
+      font-size: 0.6rem;
+      line-height: 3; }
