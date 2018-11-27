@@ -141,7 +141,7 @@ header .menu {
     left: 50%; }
 
 #mission {
-  padding: 10rem;
+  padding: 10rem 0 8.5rem;
   overflow: hidden; }
   #mission .main-box {
     text-align: left; }
