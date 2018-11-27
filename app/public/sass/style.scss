@@ -21,14 +21,10 @@ $gray_color: #646464;
 /* =======================================================
 * common
 * ======================================================= */
-html {
-  font-size: 20px;
-}
 body {
   font-family: $font_koz;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.24rem;
 }
 h2 {
   font-family: $font_ryu;
@@ -71,6 +67,11 @@ header {
   }
   .navbar-default.sticky {
     transform: translateY(0);
+  }
+  .logo-tag {
+    span {
+      font-size: 0.60rem;
+    }
   }
 }
 .wrap {
@@ -117,6 +118,8 @@ header {
       letter-spacing: 0;
       padding: 0 44px;
     }
+    width: 115px;
+    float: left;
   }
   .main-box {
     img {

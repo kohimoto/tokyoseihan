@@ -16,14 +16,10 @@
 /* =======================================================
 * common
 * ======================================================= */
-html {
-  font-size: 20px; }
-
 body {
   font-family: kozuka-mincho-pr6n, serif;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.24rem; }
+  font-style: normal; }
 
 h2 {
   font-family: Ryumin Regular KL;
@@ -71,6 +67,9 @@ header .navbar-default.sticky {
   -ms-transform: translateY(0);
   transform: translateY(0); }
 
+header .logo-tag span {
+  font-size: 0.60rem; }
+
 .wrap {
   max-width: 1500px;
   text-align: center;
@@ -93,7 +92,9 @@ header .navbar-default.sticky {
   overflow: hidden;
   position: relative; }
   #main .main-txt {
-    height: calc(100vh - 15px); }
+    height: calc(100vh - 15px);
+    width: 115px;
+    float: left; }
     #main .main-txt h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
