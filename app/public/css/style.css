@@ -183,3 +183,8 @@ header .menu {
         #products .container .main-box .box ul li {
           font-size: 0.6rem;
           line-height: 2.6; }
+
+          .other_page #main {
+            height: auto; }
+            .other_page #main img {
+              width: 100%; }
