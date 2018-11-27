@@ -183,11 +183,32 @@ header .menu {
         overflow: hidden; }
         #products .container .main-box .box ul li {
           font-size: 0.6rem;
+<<<<<<< HEAD
           line-height: 2.6;
           width: 50%;
           float: left; }
+=======
+          line-height: 2.6; }
+>>>>>>> c2463caba5715abfc82655c31c8609d71caaf7bc
 
 .other_page #main {
   height: auto; }
   .other_page #main img {
     width: 100%; }
+<<<<<<< HEAD
+=======
+
+#technology {
+  padding: 10rem 0 8.5rem;
+  overflow: hidden; }
+  #technology h2::after {
+    top: 100%; }
+  #technology .main-box {
+    text-align: left; }
+    #technology .main-box h4 {
+      font-size: 0.7rem;
+      padding-bottom: 2.5rem; }
+    #technology .main-box p {
+      font-size: 0.6rem;
+      line-height: 3; }
+>>>>>>> c2463caba5715abfc82655c31c8609d71caaf7bc

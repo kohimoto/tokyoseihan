@@ -225,3 +225,22 @@ header {
     }
   }
 }
+#technology {
+  padding: 10rem 0 8.5rem;
+  overflow: hidden;
+  h2::after {
+    top: 100%;
+  }
+  .main-box {
+      text-align: left;
+    h4 {
+      font-size: 0.7rem;
+      padding-bottom: 2.5rem;
+    }
+    p {
+      font-size: 0.6rem;
+      line-height: 3;
+    }
+  }
+
+}
