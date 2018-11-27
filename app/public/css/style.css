@@ -103,15 +103,11 @@ header .logo-tag span {
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 50px 110px;
-      position: absolute;
-      top: 16%; }
+      padding: 180px 50px; }
     #main .main-txt p {
       font-size: 0.6rem;
       font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
       color: #646464;
-      position: absolute;
-      bottom: 10%;
       letter-spacing: 0;
       padding: 0 44px; }
   #main .main-box img {
