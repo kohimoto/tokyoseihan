@@ -166,14 +166,23 @@ header .menu {
       font-size: 0.6rem;
       line-height: 3; }
     #products .container .main-box .box {
-      border: 1px solid #000; }
+      border: 1px solid #000;
+      width: 48%;
+      float: left;
+      margin-left: 4%; }
+      #products .container .main-box .box:first-of-type {
+        margin-left: 0; }
       #products .container .main-box .box h4 {
         font-size: 0.9rem;
         text-align: center;
         padding: 0.5rem 0;
         border-bottom: 1px solid #000; }
-      #products .container .main-box .box ul li {
-        font-size: 0.6rem; }
+      #products .container .main-box .box ul {
+        padding: 1rem;
+        text-align: center; }
+        #products .container .main-box .box ul li {
+          font-size: 0.6rem;
+          line-height: 2.6; }
 
 .other_page #main {
   height: auto; }

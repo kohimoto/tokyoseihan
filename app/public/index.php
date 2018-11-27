@@ -54,6 +54,12 @@ include("./header.php");
 						<li><a href="#">のべ台</a></li>
 					</ul>
 				</div>
+				<div class="box">
+					<h4>ゴム印</h4>
+					<ul>
+						<li><a href="#">のべ台</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
