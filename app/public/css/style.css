@@ -332,20 +332,27 @@ header.sticky_point .navbar-default {
 .img-box {
   margin-bottom: 105px; }
   .img-box .inner-img {
-    line-height: 1;
+    line-height: 0;
+    font-size: 0;
+    letter-spacing: 0;
     margin: 0;
     padding: 0; }
     .img-box .inner-img img {
       width: 100%;
-      line-height: 1;
+      line-height: 0;
+      letter-spacing: 0;
+      font-size: 0;
       vertical-align: bottom;
-      display: block; }
+      display: block;
+      margin: 0;
+      padding: 0; }
   .img-box .inner-txt {
     font-family: kozuka-mincho-pr6n, serif;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    text-align: left; }
+    text-align: left;
+    line-height: 0; }
     .img-box .inner-txt h3 {
       font-size: 2.5rem;
       padding: 2% 15% 0 2%;
