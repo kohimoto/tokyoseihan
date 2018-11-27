@@ -174,3 +174,6 @@ header .menu {
         border-bottom: 1px solid #000; }
       #products .container .main-box .box ul li {
         font-size: 0.6rem; }
+
+.other_page #main {
+  height: auto; }
