@@ -251,10 +251,33 @@ header .menu {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  grid-column-gap: 0; }
+  grid-column-gap: 0;
+  margin-bottom: 115px; }
   .img-box .inner-img {
     line-height: 1; }
     .img-box .inner-img img {
       width: 100%;
       line-height: 1;
       vertical-align: bottom; }
+  .img-box .inner-txt {
+    font-family: kozuka-mincho-pr6n, serif;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-align: left; }
+    .img-box .inner-txt h3 {
+      font-size: 2.5rem;
+      padding: 2% 15% 0 2%;
+      line-height: 1.3; }
+    .img-box .inner-txt p {
+      font-size: 0.6rem;
+      padding: 2% 5% 0 0;
+      line-height: 2.5; }
+    .img-box .inner-txt span {
+      border: 0.5px solid;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      height: 215px;
+      display: block;
+      margin: 2% 0; }

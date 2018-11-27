@@ -20,7 +20,31 @@ include("../header.php");
 	</div>
   <div class="img-box">
     <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
-    <div class="inner-txt"></div>
+    <div class="inner-txt">
+      <h3>ゴム印<br>製造過程</h3>
+      <span></span>
+      <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
+    </div>
+    <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
+    <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
+  </div>
+  <div class="img-box">
+    <div class="inner-txt">
+      <h3>ゴム印<br>製造過程</h3>
+      <span></span>
+      <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
+    </div>
+    <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
+    <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
+    <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
+  </div>
+  <div class="img-box">
+    <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
+    <div class="inner-txt">
+      <h3>ゴム印<br>製造過程</h3>
+      <span></span>
+      <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
+    </div>
     <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
     <div class="inner-img"><img src="/images/gijyutu_dmy.png"></div>
   </div>
