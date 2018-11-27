@@ -42,6 +42,18 @@ include("./header.php");
 				<h4>ダミーダミー</h4>
 				<p>ハンコの歴史は意外に古く...東京製版ハンコゴム印浸透印東京製版ハンコゴム印浸透印
 ...用途によって様々なハンコがあります。</p>
+				<div class="box">
+					<h4>ゴム印</h4>
+					<ul>
+						<li><a href="#">のべ台</a></li>
+						<li><a href="#">ニギリ台</a></li>
+						<li><a href="#">のべ台</a></li>
+						<li><a href="#">あああああ</a></li>
+						<li><a href="#">のべ台</a></li>
+						<li><a href="#">いいい</a></li>
+						<li><a href="#">のべ台</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
