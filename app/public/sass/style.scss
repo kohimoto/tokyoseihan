@@ -180,6 +180,7 @@ header {
     padding: 8.5rem 0;
     .main-box {
       text-align: left;
+      overflow:hidden;
       h4 {
         font-size: 0.7rem;
         padding-bottom: 2.5rem;
@@ -193,6 +194,7 @@ header {
       width: 48%;
       float: left;
       margin-left: 4%;
+      margin-top: 1rem;
       &:first-of-type{
         margin-left: 0;
       }

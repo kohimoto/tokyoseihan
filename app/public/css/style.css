@@ -158,7 +158,8 @@ header .menu {
 #products .container {
   padding: 8.5rem 0; }
   #products .container .main-box {
-    text-align: left; }
+    text-align: left;
+    overflow: hidden; }
     #products .container .main-box h4 {
       font-size: 0.7rem;
       padding-bottom: 2.5rem; }
@@ -169,7 +170,8 @@ header .menu {
       border: 1px solid #000;
       width: 48%;
       float: left;
-      margin-left: 4%; }
+      margin-left: 4%;
+      margin-top: 1rem; }
       #products .container .main-box .box:first-of-type {
         margin-left: 0; }
       #products .container .main-box .box h4 {
@@ -183,20 +185,14 @@ header .menu {
         overflow: hidden; }
         #products .container .main-box .box ul li {
           font-size: 0.6rem;
-<<<<<<< HEAD
           line-height: 2.6;
           width: 50%;
           float: left; }
-=======
-          line-height: 2.6; }
->>>>>>> c2463caba5715abfc82655c31c8609d71caaf7bc
 
 .other_page #main {
   height: auto; }
   .other_page #main img {
     width: 100%; }
-<<<<<<< HEAD
-=======
 
 #technology {
   padding: 10rem 0 8.5rem;
@@ -211,4 +207,3 @@ header .menu {
     #technology .main-box p {
       font-size: 0.6rem;
       line-height: 3; }
->>>>>>> c2463caba5715abfc82655c31c8609d71caaf7bc
