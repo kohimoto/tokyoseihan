@@ -50,8 +50,10 @@ h2 {
     margin: auto;
     background: #646464; }
 
-header .container {
-  line-height: 1; }
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0; }
 
 header .navbar-default {
   left: 0;
@@ -74,9 +76,6 @@ header .navbar-default.sticky {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0); }
-
-header .logo-tag h1 {
-  vertical-align: middle; }
 
 header .logo-tag span {
   font-size: 0.60rem;
@@ -140,9 +139,24 @@ header .menu {
     left: 50%; }
 
 #mission {
-  padding: 10rem;
+  padding: 10rem 0 6rem;
   overflow: hidden; }
-  #mission .main-box h4 {
-    font-size: 0.7rem; }
-  #mission .main-box p {
-    font-size: 0.6rem; }
+  #mission .main-box {
+    text-align: left; }
+    #mission .main-box h4 {
+      font-size: 0.7rem;
+      padding-bottom: 2.5rem; }
+    #mission .main-box p {
+      font-size: 0.6rem;
+      line-height: 3; }
+
+#products .container {
+  padding: 8.5rem 0; }
+  #products .container .main-box {
+    text-align: left; }
+    #products .container .main-box h4 {
+      font-size: 0.7rem;
+      padding-bottom: 2.5rem; }
+    #products .container .main-box p {
+      font-size: 0.6rem;
+      line-height: 3; }

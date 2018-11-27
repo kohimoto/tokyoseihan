@@ -57,6 +57,12 @@ h2 {
     background: $gray_color;
   }
 }
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 header {
   .container {
     line-height: 1;
@@ -163,6 +169,22 @@ header {
     }
     p {
       font-size: 0.6rem;
+    }
+  }
+}
+#products {
+  .container{
+    padding: 8.5rem 0;
+    .main-box {
+      text-align: left;
+      h4 {
+        font-size: 0.7rem;
+        padding-bottom: 2.5rem;
+      }
+      p {
+        font-size: 0.6rem;
+        line-height: 3;
+      }
     }
   }
 }
