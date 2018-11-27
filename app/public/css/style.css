@@ -43,12 +43,15 @@ h2 {
     content: "";
     position: absolute;
     right: 20px;
-    top: 50%;
+    bottom: 50%;
     display: block;
     width: 1px;
-    height: 60px;
+    height: 40px;
     margin: auto;
     background: #646464; }
+
+header .container {
+  line-height: 1; }
 
 header .navbar-default {
   left: 0;
@@ -79,7 +82,8 @@ header .menu {
   font-size: 0.6rem;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif; }
   header .menu a {
-    color: #646464; }
+    color: #646464;
+    line-height: 1; }
 
 .wrap {
   max-width: 1500px;
@@ -128,10 +132,7 @@ header .menu {
   #main .scroll {
     position: absolute;
     bottom: 20px;
-    left: 50%;
-    margin-left: -24.5px; }
-    #main .scroll img {
-      opacity: 0.7; }
+    left: 50%; }
 
 #mission {
   padding: 10rem;
