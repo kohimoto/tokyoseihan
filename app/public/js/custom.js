@@ -11,12 +11,15 @@ $(function(){
     $('body,html').animate({scrollTop:position}, speed, 'swing');
     $('.navbar-collapse').removeClass('in');
   }else{
-    //window.location.href = "/"+targetid ;
     return true;
   }
     return false;
 
   });
+//  $('.scroll').click(function(){
+//    var pos = $(window).offset();
+//    $('body,html').animate({scrollTop:'200px'}, 1000, 'swing');
+//  });
 
 //scroll & fadeIn
   $('.animate-box').animateCssPlus({
