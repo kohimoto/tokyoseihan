@@ -104,6 +104,12 @@ header {
       line-height: 1;
     }
   }
+  &.sticky_point {
+    .navbar-default {
+      transform: translateY(0%);
+      z-index: 2;
+    }
+  }
 }
 .wrap {
   max-width: 1500px;
@@ -279,6 +285,7 @@ header {
 
 
 .other_page {
+  margin-top: 60px;
   #main {
     height: auto;
     img {
