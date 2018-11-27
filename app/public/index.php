@@ -4,7 +4,7 @@ include("./header.php");
 <div class="wrap top">
 	<div id="main">
 		<div class="main-txt">
-			<h1><span>株式会社</span>東京製版</h1>
+			<h1><img src="/images/tokyoseihan_in.png" alt="TOKYOSEIHAN"><span>株式会社</span>東京製版</h1>
 			<p>Hanko Production</p>
 		</div>
 		<div class="main-box">
@@ -13,7 +13,7 @@ include("./header.php");
 	</div>
 	<div id="mission">
 		<div class="main-txt">
-	  	<h2><span>MISSION</span><br>ミッション</h2>
+	  	<h2><span>MISSION</span><br>企業理念</h2>
 		</div>
 		<div class="main-box">
 			<h4>新しい技術に挑み、新しい時代と戦う</h4>
@@ -26,21 +26,24 @@ include("./header.php");
 		</div>
 	</div>
 	<div id="products">
-	  <h2>ハンコの種類</h2>
-		<h3>“DATAマネージメント”をコアエンジンにし、<br>
-	External＆internalのブランディングを実現します。</h3>
-		<div class="plan_02">
-			<div class="circle">
-				<img src="images/business_01.png" alt="External & Internal Branding">
-			</div>
-			<div class="line">
-				<svg class="pc"><use xlink:href="#line"></use></svg>
-				<svg  viewBox="0 0 360.824 111.883" width="360.824" height="111.883" class="sp"><use xlink:href="#line_sp"></use></svg>
-			</div>
+		<div class="main-img">
+			<img src="/images/yoko100_dmy.png" alt="">
+		</div>
+		<div class="main-txt">
+	  	<h2><span>PRODUCTS</span><br>ハンコの種類</h2>
+		</div>
+		<div class="main-box">
+			<h4>新しい技術に挑み、新しい時代と戦う</h4>
+			<p>私ども、株式会社東京製版は、創業より多彩で実用的な別製ゴム印の製造を中心に、
+業務を展開し、その製造においては、関東最大の工場設備と生産力を誇るほどに成長しました。
+しかしながら、めまぐるしい速度で変化を続ける現代において、求められるニーズもますます多様化しており、
+より便利で、より手軽、より優れたたものへと常に進化し高度化しています。
+私どもは、現在に慢心することなく、独自の経験や実績を生かしながら、いつも一歩先を見つめ、
+また、チャレンジ精神で突き進むことが、当社の歩むべき道と確信しております。</p>
 		</div>
 	</div>
 	<div id="news">
-	  <h2>お知らせ</h2>
+	  <h2><span>NEWS</span><br>お知らせ</h2>
 		<div class="sd_04">
 			<div class="box">
 				<p>会社名</p>
