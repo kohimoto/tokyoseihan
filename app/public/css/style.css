@@ -191,6 +191,29 @@ header .menu {
 
 #products .sub-container {
   padding: 8.5rem; }
+  #products .sub-container .gomu {
+    position: relative;
+    height: 1000px; }
+    #products .sub-container .gomu .detail {
+      position: absolute;
+      width: 640px; }
+      #products .sub-container .gomu .detail.a01 {
+        right: 80px; }
+        #products .sub-container .gomu .detail.a01 .txt {
+          padding-top: 200px; }
+      #products .sub-container .gomu .detail .img {
+        width: 371px;
+        float: left; }
+      #products .sub-container .gomu .detail .txt {
+        width: calc(100% - 371px);
+        float: left;
+        text-align: left; }
+        #products .sub-container .gomu .detail .txt h4 {
+          font-size: 0.9rem;
+          padding-bottom: 0.2rem; }
+        #products .sub-container .gomu .detail .txt p {
+          font-size: 0.6rem;
+          line-height: 2.6; }
 
 #news .container {
   padding: 8.5rem 0; }

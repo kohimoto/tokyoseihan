@@ -218,10 +218,44 @@ header {
       }
     }
   }
-  .sub-container{
+  .sub-container {
     padding: 8.5rem;
+    .gomu {
+      position: relative;
+      height: 1000px;
+      .detail {
+        position: absolute;
+        width: 640px;
+        &.a01{
+          right: 80px;
+          .txt{
+            padding-top: 200px;
+          }
+        }
+        .img {
+          width: 371px;
+          float:left;
+        }
+        .txt {
+          width: calc(100% - 371px);
+          float:left;
+          text-align: left;
+          h4 {
+            font-size: 0.9rem;
+            padding-bottom: 0.2rem;
+          }
+          p {
+            font-size: 0.6rem;
+            line-height: 2.6;
+          }
+        }
+      }
+    }
   }
 }
+
+
+
 #news{
   .container{
     padding: 8.5rem 0;

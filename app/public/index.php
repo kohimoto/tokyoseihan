@@ -69,9 +69,9 @@ include("./header.php");
 またはゴムではない
 半透明の合成樹脂を使ったスタンプ。</p>
 			<div class="gomu">
-				<article class="detail_1">
+				<article class="detail a01">
 					<div class="img">
-						<img src="/images/hanko_dmy.png" alt="">
+						<img src="/images/hanko_dmy.png" alt="のべ台イメージ">
 					</div>
 					<div class="txt">
 						<h4>「のべ台」</h4>
@@ -79,7 +79,6 @@ include("./header.php");
 					</div>
 				</article>
 			</div>
-
 		</div>
 	</div>
 	<div id="news">
