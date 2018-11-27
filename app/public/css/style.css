@@ -75,6 +75,9 @@ header .navbar-default.sticky {
   -ms-transform: translateY(0);
   transform: translateY(0); }
 
+header .logo-tag h1 {
+  vertical-align: middle; }
+
 header .logo-tag span {
   font-size: 0.60rem; }
 
@@ -135,15 +138,9 @@ header .menu {
     left: 50%; }
 
 #mission {
-  padding: 10rem 0 6rem;
-  overflow: hidden;
-  max-width: 1024px;
-  margin: 0 auto; }
-  #mission .main-box {
-    text-align: left; }
-    #mission .main-box h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem; }
-    #mission .main-box p {
-      font-size: 0.6rem;
-      line-height: 3; }
+  padding: 10rem;
+  overflow: hidden; }
+  #mission .main-box h4 {
+    font-size: 0.7rem; }
+  #mission .main-box p {
+    font-size: 0.6rem; }
