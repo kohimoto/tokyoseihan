@@ -49,10 +49,10 @@ h2 {
     content: "";
     position: absolute;
     right: 20px;
-    bottom: 50%;
+    top: 50%;
     display: block;
     width: 1px;
-    height: 40px;
+    height: 60px;
     margin: auto;
     background: $gray_color;
   }
@@ -164,11 +164,14 @@ header {
   padding: 10rem;
   overflow:hidden;
   .main-box {
+      text-align: left;
     h4 {
       font-size: 0.7rem;
+      padding-bottom: 2.5rem;
     }
     p {
       font-size: 0.6rem;
+      line-height: 3;
     }
   }
 }
