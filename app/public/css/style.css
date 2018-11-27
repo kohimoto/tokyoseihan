@@ -189,6 +189,22 @@ header .menu {
           width: 50%;
           float: left; }
 
+#products .sub-container {
+  padding: 8.5rem; }
+
+#news .container {
+  padding: 8.5rem 0; }
+  #news .container .main-box .date-box {
+    overflow: hidden;
+    font-size: 0.6rem;
+    text-align: left;
+    padding: 0.5rem; }
+    #news .container .main-box .date-box .date {
+      float: left;
+      width: 5rem; }
+    #news .container .main-box .date-box .txt {
+      float: left; }
+
 .other_page #main {
   height: auto; }
   .other_page #main img {

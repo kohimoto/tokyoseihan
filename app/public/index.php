@@ -41,7 +41,7 @@ include("./header.php");
 			<div class="main-box">
 				<h4>ダミーダミー</h4>
 				<p>ハンコの歴史は意外に古く...東京製版ハンコゴム印浸透印東京製版ハンコゴム印浸透印
-...用途によって様々なハンコがあります。</p>
+...用途によって様々なハンコがあります。(ダミーテキストダミーテキストダミーテキスト)</p>
 				<div class="box">
 					<h4>ゴム印</h4>
 					<ul>
@@ -62,43 +62,51 @@ include("./header.php");
 				</div>
 			</div>
 		</div>
+		<div class="sub-container">
+			<h3>ゴム印</h3>
+			<p>印面が天然ゴムによる赤ゴムと、
+耐油性のある黒ゴム素材のもの、
+またはゴムではない
+半透明の合成樹脂を使ったスタンプ。</p>
+			<div class="gomu">
+				<article class="detail_1">
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="">
+					</div>
+					<div class="txt">
+						<h4>「のべ台」</h4>
+						<p>一番オーソドックスな木製の四角い台木。<br>小さな氏名用のハンコから、<br>大きな枠付きのものまで、<br>幅広く対応しています。</p>
+					</div>
+				</article>
+			</div>
+
+		</div>
 	</div>
 	<div id="news">
+		<div class="main-img">
+			<img src="/images/yoko100_dmy.png" alt="">
+		</div>
+		<div class="container">
+			<div class="main-txt">
 	  <h2><span>NEWS</span><br>お知らせ</h2>
-		<div class="sd_04">
-			<div class="box">
-				<p>会社名</p>
-					<div class="date">
-						<h5>株式会社 澤田設計事務所</h5>
-					</div>
 			</div>
-			<div class="box">
-				<p>本社所在地</p>
+			<div class="main-box">
+				<article class="date-box">
 					<div class="date">
-						<h5>大阪府大阪市北区中之島2-2-7</h5>
+						<span>2019.1.1</span>
 					</div>
-			</div>
-			<div class="box">
-				<p>資本金</p>
+					<div class="txt">
+						<p>ホームページをリニューアル致しました。</p>
+					</div>
+				</article>
+				<article class="date-box">
 					<div class="date">
-						<h5>5,000万円</h5>
+						<span>2019.1.1</span>
 					</div>
-			</div>
-			<div class="box">
-				<p>設立日</p>
-					<div class="date">
-						<h5>2018年9月3日</h5>
+					<div class="txt">
+						<p>新しいサービス「XXXXXXXXX」を開始いたしました。</p>
 					</div>
-			</div>
-			<div class="box officer">
-				<p>役員</p>
-					<div class="date">
-						<h5>代表取締役社長  澤田善郎<br>
-								取締役（非常勤）沖林義樹<br>
-								取締役（非常勤）武田和雄<br>
-								監査役（非常勤）西田雅彦<br>
-						</h5>
-					</div>
+				</article>
 			</div>
 		</div>
 	</div>
