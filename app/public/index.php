@@ -63,11 +63,11 @@ include("./header.php");
 			</div>
 		</div>
 		<div class="sub-container">
-			<h3>ゴム印</h3>
-			<p>印面が天然ゴムによる赤ゴムと、
-耐油性のある黒ゴム素材のもの、
-またはゴムではない
-半透明の合成樹脂を使ったスタンプ。</p>
+			<div class="inner-txt">
+			  <h3>ゴム印</h3>
+			  <span></span>
+			  <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
+			</div>
 			<div class="gomu">
 				<article class="detail a01">
 					<div class="img">
