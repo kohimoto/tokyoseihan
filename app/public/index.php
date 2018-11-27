@@ -133,6 +133,24 @@ include("./header.php");
 					</div>
 				</article>
 			</div>
+
+
+				<div class="inner-txt">
+					<h3>浸透印</h3>
+					<span class="second"></span>
+					<p>多孔質の合成ゴムを印面に用いて内部に<br>インクを溜め込む仕組みを備えた浸透式の印章で<br>朱肉を必要としないもの。</p>
+				</div>
+				<div class="shinto">
+					<article class="detail a01">
+						<div class="img">
+							<img src="/images/shinto_dmy.png" alt="「のべ台」">
+						</div>
+						<div class="txt">
+							<h4>「TS Stamper」</h4>
+							<p>フタをしなくても、そのまま置けるスプリング支持式なので、<br>紙面を汚さず、鮮明な文字を捺印することが出来ます。<br>ホルダーサイズやインクの種類は、豊富に取り揃えております。</p>
+						</div>
+					</article>
+				</div>
 		</div>
 	</div>
 	<div id="news">

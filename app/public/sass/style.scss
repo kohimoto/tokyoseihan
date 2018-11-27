@@ -82,6 +82,7 @@ header {
     width: 100%;
     background-color: rgba(255,255,255,0.5);
     border: 0;
+    z-index: 3;
   }
   .navbar-default.sticky {
     transform: translateY(0);
@@ -225,6 +226,7 @@ header {
     }
   }
   .sub-container {
+    padding:0 8.5rem;
     .inner-txt {
     font-family: $font_koz;
     -webkit-writing-mode: vertical-rl;
@@ -245,6 +247,9 @@ header {
       height: 215px;
       display: block;
       margin: 2% 0;
+      &.second{
+      height: 315px;
+      }
     }
     p {
       font-size: 0.6rem;
@@ -252,7 +257,7 @@ header {
       line-height: 2.5;
     }
   }
-    padding:0 8.5rem;
+
     .gomu {
       position: relative;
       height: 2600px;
@@ -326,6 +331,34 @@ header {
         }
       }
     }
+
+    .shinto {
+      position: relative;
+      height: 900px;
+      .detail {
+        position: absolute;
+        width: 640px;
+        &.a01{
+          top:100px;
+          right: 380px;
+        }
+        .img {
+        }
+        .txt {
+          text-align: left;
+          h4 {
+            font-size: 0.9rem;
+            padding-bottom: 0.2rem;
+          }
+          p {
+            font-size: 0.6rem;
+            line-height: 2.6;
+          }
+        }
+      }
+    }
+
+
   }
 }
 
