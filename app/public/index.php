@@ -14,7 +14,7 @@ include("./header.php");
 			<img src="/images/scroll.png" alt="SCROLL">
 		</div>
 	</div>
-	<div id="mission">
+	<div id="mission" class="sticky_point">
 		<div class="container">
 		<div class="main-txt">
 	  	<h2><span>MISSION</span><br>企業理念</h2>

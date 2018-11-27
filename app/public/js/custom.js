@@ -27,7 +27,7 @@ $(function(){
   //header slide Down & Up
 
  	// Global Sticky
-  var waypointsHideGlobal = $('#mission').waypoint({
+  var waypointsHideGlobal = $('.sticky_point').waypoint({
 		handler: function(direction) {
       if(direction === 'down'){
 				$('.navbar-default').addClass('sticky');

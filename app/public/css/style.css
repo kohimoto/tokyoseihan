@@ -258,7 +258,8 @@ header .menu {
     .img-box .inner-img img {
       width: 100%;
       line-height: 1;
-      vertical-align: bottom; }
+      vertical-align: bottom;
+      display: block; }
   .img-box .inner-txt {
     font-family: kozuka-mincho-pr6n, serif;
     -webkit-writing-mode: vertical-rl;
