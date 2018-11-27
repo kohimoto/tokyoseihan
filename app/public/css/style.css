@@ -207,3 +207,15 @@ header .menu {
     #technology .main-box p {
       font-size: 0.6rem;
       line-height: 3; }
+
+.img-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 0; }
+  .img-box .inner-img {
+    line-height: 1; }
+    .img-box .inner-img img {
+      width: 100%;
+      line-height: 1;
+      vertical-align: bottom; }
