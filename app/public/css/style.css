@@ -179,12 +179,15 @@ header .menu {
         border-bottom: 1px solid #000; }
       #products .container .main-box .box ul {
         padding: 1rem;
-        text-align: center; }
+        text-align: center;
+        overflow: hidden; }
         #products .container .main-box .box ul li {
           font-size: 0.6rem;
-          line-height: 2.6; }
+          line-height: 2.6;
+          width: 50%;
+          float: left; }
 
-          .other_page #main {
-            height: auto; }
-            .other_page #main img {
-              width: 100%; }
+.other_page #main {
+  height: auto; }
+  .other_page #main img {
+    width: 100%; }

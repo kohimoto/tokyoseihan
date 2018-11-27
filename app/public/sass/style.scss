@@ -205,9 +205,12 @@ header {
     ul{
       padding: 1rem;
       text-align:center;
+      overflow: hidden;
       li{
         font-size: 0.6rem;
         line-height: 2.6;
+        width: 50%;
+        float: left;
       }
     }
   }
