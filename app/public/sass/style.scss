@@ -102,13 +102,15 @@ header {
   overflow: hidden;
   position:relative;
   .main-txt {
+    width: 200px;
+    float: left;
     height: calc(100vh - 15px);
      h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 0 110px;
+      padding: 0 50px 110px;
       position: absolute;
       top: 16%;
      }
@@ -119,9 +121,8 @@ header {
       position: absolute;
       bottom: 10%;
       letter-spacing: 0;
+      padding: 0 44px;
     }
-    width: 115px;
-    float: left;
   }
   .main-box {
     img {

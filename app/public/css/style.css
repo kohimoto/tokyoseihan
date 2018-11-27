@@ -95,15 +95,15 @@ header .logo-tag span {
   overflow: hidden;
   position: relative; }
   #main .main-txt {
-    height: calc(100vh - 15px);
-    width: 115px;
-    float: left; }
+    width: 200px;
+    float: left;
+    height: calc(100vh - 15px); }
     #main .main-txt h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
-      padding: 0 0 110px;
+      padding: 0 50px 110px;
       position: absolute;
       top: 16%; }
     #main .main-txt p {
@@ -112,7 +112,8 @@ header .logo-tag span {
       color: #646464;
       position: absolute;
       bottom: 10%;
-      letter-spacing: 0; }
+      letter-spacing: 0;
+      padding: 0 44px; }
   #main .main-box img {
     width: 100%;
     height: calc(100vh - 15px); }
