@@ -73,6 +73,12 @@ header .navbar-default.sticky {
 header .logo-tag span {
   font-size: 0.60rem; }
 
+header .menu {
+  font-size: 0.6rem;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif; }
+  header .menu a {
+    color: #646464; }
+
 .wrap {
   max-width: 1500px;
   text-align: center;

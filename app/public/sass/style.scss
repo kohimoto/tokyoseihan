@@ -76,6 +76,13 @@ header {
       font-size: 0.60rem;
     }
   }
+  .menu {
+    font-size: 0.6rem;
+    font-family: $font_zen;
+    a {
+      color: $gray_color;
+    }
+  }
 }
 .wrap {
   max-width: 1500px;
