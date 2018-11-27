@@ -49,10 +49,10 @@ h2 {
     content: "";
     position: absolute;
     right: 20px;
-    bottom: 50%;
+    top: 50%;
     display: block;
     width: 1px;
-    height: 40px;
+    height: 60px;
     margin: auto;
     background: $gray_color;
   }
@@ -143,6 +143,10 @@ header {
     position: absolute;
     bottom:20px;
     left:50%;
+    margin-left: -24.5px;
+    img{
+      opacity: 0.7;
+    }
   }
 }
 #mission {
