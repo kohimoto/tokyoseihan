@@ -173,4 +173,5 @@ header .menu {
         padding: 0.5rem 0;
         border-bottom: 1px solid #000; }
       #products .container .main-box .box ul li {
-        font-size: 0.6rem; }
+        font-size: 0.6rem;
+        padding: 0.5rem; }
