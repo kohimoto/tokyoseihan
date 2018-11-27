@@ -309,13 +309,11 @@ header.sticky_point .navbar-default {
       line-height: 3; }
 
 .img-box {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 0;
   margin-bottom: 105px; }
   .img-box .inner-img {
-    line-height: 1; }
+    line-height: 1;
+    margin: 0;
+    padding: 0; }
     .img-box .inner-img img {
       width: 100%;
       line-height: 1;
