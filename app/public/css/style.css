@@ -190,17 +190,47 @@ header .menu {
           float: left; }
 
 #products .sub-container {
-  padding: 8.5rem; }
+  padding: 0 8.5rem; }
   #products .sub-container .gomu {
     position: relative;
-    height: 1000px; }
+    height: 2600px; }
     #products .sub-container .gomu .detail {
       position: absolute;
       width: 640px; }
       #products .sub-container .gomu .detail.a01 {
-        right: 80px; }
+        right: 280px; }
         #products .sub-container .gomu .detail.a01 .txt {
           padding-top: 200px; }
+      #products .sub-container .gomu .detail.a02 {
+        top: 440px;
+        right: 0px; }
+        #products .sub-container .gomu .detail.a02 .txt {
+          padding-top: 80px; }
+      #products .sub-container .gomu .detail.a03 {
+        top: 720px;
+        left: 0; }
+        #products .sub-container .gomu .detail.a03 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a04 {
+        top: 1040px;
+        right: 0; }
+        #products .sub-container .gomu .detail.a04 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a05 {
+        top: 1300px;
+        left: 0; }
+        #products .sub-container .gomu .detail.a05 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a06 {
+        top: 1560px;
+        right: 0; }
+        #products .sub-container .gomu .detail.a06 .txt {
+          padding-top: 160px; }
+      #products .sub-container .gomu .detail.a07 {
+        top: 2000px;
+        left: 200px; }
+        #products .sub-container .gomu .detail.a07 .txt {
+          padding-top: 160px; }
       #products .sub-container .gomu .detail .img {
         width: 371px;
         float: left; }

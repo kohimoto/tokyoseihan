@@ -71,11 +71,65 @@ include("./header.php");
 			<div class="gomu">
 				<article class="detail a01">
 					<div class="img">
-						<img src="/images/hanko_dmy.png" alt="のべ台イメージ">
+						<img src="/images/hanko_dmy.png" alt="「のべ台」">
 					</div>
 					<div class="txt">
 						<h4>「のべ台」</h4>
 						<p>一番オーソドックスな木製の四角い台木。<br>小さな氏名用のハンコから、<br>大きな枠付きのものまで、<br>幅広く対応しています。</p>
+					</div>
+				</article>
+				<article class="detail a02">
+					<div class="txt">
+						<h4>「ニギリ台」</h4>
+						<p>ノベ台にプラスチックの取っ手をつけた台木。<br>見出しはつきませんが、押しやすく、<br>手も汚れにくいのが特徴です。<br>住所判など少し大きめのゴム印に最適です。</p>
+					</div>
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="「ニギリ台」">
+					</div>
+				</article>
+				<article class="detail a03">
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="「トップ」">
+					</div>
+					<div class="txt">
+						<h4>「トップ」</h4>
+						<p>透明なプラスチック製の台木。<br>見出しがつくので、すぐに見分けがつきます。<br>同じようなゴム印を複数使用する方におすすめです。</p>
+					</div>
+				</article>
+				<article class="detail a04">
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="「T角台木」">
+					</div>
+					<div class="txt">
+						<h4>「T角台木」</h4>
+						<p>角印（[「〇〇商事之印」などと入る<br>正方形のゴム印）専用の台木です。</p>
+					</div>
+				</article>
+				<article class="detail a05">
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="「データ印」">
+					</div>
+					<div class="txt">
+						<h4>「データ印」</h4>
+						<p>日付合わせが簡単におこなえる、<br>便利な回転式データ印です</p>
+					</div>
+				</article>
+				<article class="detail a06">
+					<div class="txt">
+						<h4>「親子台木」</h4>
+						<p>組み合わせ式の台木。住所・氏名・電話番などを<br>別々の台木で作り、あとで必要なものだけを<br>組み合わせて捺印することができます。<br>複数の住所や支店名など、<br>また一部だけを使い分ける用途に最適です。</p>
+					</div>
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="「親子台木」">
+					</div>
+				</article>
+				<article class="detail a07">
+					<div class="img">
+						<img src="/images/hanko_dmy.png" alt="「風雅用印台木」">
+					</div>
+					<div class="txt">
+						<h4>「風雅用印台木」</h4>
+						<p>風雅印と呼ばれるゴム印専用の台木。<br>見出しはつきませんが、ノベ台よりも<br>高級感があります。</p>
 					</div>
 				</article>
 			</div>
