@@ -78,7 +78,9 @@ header .navbar-default.sticky {
   transform: translateY(0); }
 
 header .logo-tag span {
-  font-size: 0.60rem; }
+  font-size: 0.60rem;
+  font-family: "Colfax";
+  color: #646464; }
 
 header .menu {
   font-size: 0.6rem;
