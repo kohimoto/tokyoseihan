@@ -7,11 +7,12 @@ $(function(){
     var targetid = "#" + $(this).attr("class");
     var target = $(targetid);
     if(target.offset() !== undefined) {
-    var position = target.offset().top - 90;
+    var position = target.offset().top + 300;
     $('body,html').animate({scrollTop:position}, speed, 'swing');
     $('.navbar-collapse').removeClass('in');
   }else{
-    window.location.href = "/"+targetid ;
+    //window.location.href = "/"+targetid ;
+    return true;
   }
     return false;
 
