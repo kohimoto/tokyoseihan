@@ -25,6 +25,13 @@ $(function(){
   });
 
 
+  //Tab to top
+  $(".scroll-top img").on("click", function() {
+     $("html, body").animate({ scrollTop: 0 }, 1000);
+    return false;
+  });
+
+
   //header slide Down & Up
 
  	// Global Sticky

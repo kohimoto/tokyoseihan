@@ -181,7 +181,7 @@ include("./header.php");
 			</div>
 		</div>
 		<div class="scroll-top">
-			<a href="#"><img src="/images/top.png" alt="トップ"></a>
+			<img src="/images/top.png" alt="トップ">
 		</div>
 	</div>
 	<div class="container hanko_foot">
