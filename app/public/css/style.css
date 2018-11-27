@@ -73,7 +73,7 @@ header .navbar-default {
   transform: translateY(-100%);
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
-  border-bottom: 0; }
+  border: 0; }
 
 header .navbar-default.sticky {
   -webkit-transform: translateY(0);
