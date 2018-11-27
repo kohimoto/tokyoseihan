@@ -184,6 +184,9 @@ include("./header.php");
 			<a href="#"><img src="/images/top.png" alt="トップ"></a>
 		</div>
 	</div>
+	<div class="container hanko_foot">
+		<img src="/images/tokyoseihan_in.png" alt="TOKYOSEIHAN">
+	</div>
 </div>
 <?php
 include("./footer.php");

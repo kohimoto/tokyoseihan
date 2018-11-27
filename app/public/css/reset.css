@@ -75,6 +75,9 @@ header .logo-tag a {
   display: block;
   line-height: 0;
 }
+header .navbar-default .navbar-nav {
+  padding: 30px 0;
+}
 header .navbar-default .navbar-nav li a {
 }
 header #main-img {
@@ -82,7 +85,7 @@ header #main-img {
 }
 header .navbar-default .navbar-nav li a {
   margin: 0 25px;
-  padding-right: 0
+  padding: 0
 }
 .home header #main-img {
   display: block;

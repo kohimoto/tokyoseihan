@@ -134,6 +134,8 @@ header .menu {
   header .menu a {
     color: #646464;
     line-height: 1; }
+    header .menu a::after {
+      background: #646464; }
 
 header.sticky_point .navbar-default {
   -webkit-transform: translateY(0%);
@@ -367,6 +369,13 @@ footer {
 
 #news .scroll-top {
   padding-bottom: 1.5rem; }
+
+.hanko_foot {
+  position: relative; }
+  .hanko_foot img {
+    position: absolute;
+    right: 0;
+    top: -0.7rem; }
 
 .other_page {
   margin-top: 60px; }

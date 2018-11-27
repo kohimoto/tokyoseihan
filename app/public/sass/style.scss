@@ -131,6 +131,9 @@ header {
     a {
       color: $gray_color;
       line-height: 1;
+      &::after {
+        background: $gray_color;
+      }
     }
   }
   &.sticky_point {
@@ -450,6 +453,14 @@ footer {
   }
 }
 
+.hanko_foot {
+  position: relative;
+  img {
+    position: absolute;
+    right: 0;
+    top: -0.7rem;
+  }
+}
 
 .other_page {
   margin-top: 60px;
