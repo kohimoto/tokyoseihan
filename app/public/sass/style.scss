@@ -146,6 +146,8 @@ header {
     .navbar-nav > li > a {
       @include tab{
         display: inline-block;
+        padding: 10px 5px;
+        margin: 12px 40px;
       }
     }
   }

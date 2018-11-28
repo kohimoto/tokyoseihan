@@ -130,7 +130,9 @@ header .navbar-default {
   padding: 0 15px; }
   @media (max-width: 1060px) {
     header .navbar-default .navbar-nav > li > a {
-      display: inline-block; } }
+      display: inline-block;
+      padding: 10px 5px;
+      margin: 12px 40px; } }
 
 header .navbar-default.sticky {
   -webkit-transform: translateY(0);
