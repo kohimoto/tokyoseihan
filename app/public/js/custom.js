@@ -62,6 +62,7 @@ $(function(){
 		},
   	offset: '0'
 	});
+  // other page  Sticky
   $('.other_page').prev('header').addClass('sticky_point');
 
   });
