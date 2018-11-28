@@ -361,6 +361,8 @@ footer {
       width: 5rem; }
     #news .container .main-box .date-box .txt {
       float: left; }
+      #news .container .main-box .date-box .txt p {
+        line-height: 1.8; }
 
 #news .scroll-top {
   padding-bottom: 1.5rem; }
