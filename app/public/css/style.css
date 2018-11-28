@@ -195,11 +195,10 @@ footer {
   padding: 130px 15px 0; }
   @media (max-width: 1060px) {
     footer {
-      height: 120px;
-      padding: 70px 15px 0; } }
+      height: auto;
+      padding: 70px 15px 20px; } }
   @media (max-width: 480px) {
     footer {
-      height: auto;
       padding: 50px 15px; } }
   footer .container {
     max-width: 1300px; }
