@@ -5,10 +5,10 @@ include("../header.php");
 	<div id="main">
     <img src="/images/yoko100_dmy.png" alt="技術と品質">
 	</div>
-	<div id="technology">
+	<div id="corporate">
 		<div class="container">
 		<div class="main-txt">
-	  	<h2><span>TECHNOLOGY & QUALITY</span><br>技術と品質</h2>
+	  	<h2><span>CORPORATE INFORMATION</span><br>企業情報</h2>
 		</div>
 		<div class="main-box">
 			<p>技術革新が進み利便性が向上し、これまでにない常識が次々と生み出される現代。<br>

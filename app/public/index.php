@@ -46,18 +46,18 @@ include("./header.php");
 					<h4>ゴム印</h4>
 					<ul>
 						<li><a href="#">のべ台</a></li>
+						<li><a href="#">データ印</a></li>
 						<li><a href="#">ニギリ台</a></li>
-						<li><a href="#">のべ台</a></li>
-						<li><a href="#">あああああ</a></li>
-						<li><a href="#">のべ台</a></li>
-						<li><a href="#">いいい</a></li>
-						<li><a href="#">のべ台</a></li>
+						<li><a href="#">親子台木</a></li>
+						<li><a href="#">トップ</a></li>
+						<li><a href="#">風雅用印台木</a></li>
+						<li><a href="#">T角台木</a></li>
 					</ul>
 				</div>
 				<div class="box">
-					<h4>ゴム印</h4>
+					<h4>浸透印</h4>
 					<ul>
-						<li><a href="#">のべ台</a></li>
+						<li><a href="#">TS Stamper</a></li>
 					</ul>
 				</div>
 			</div>
