@@ -272,7 +272,7 @@ footer {
   @media (max-width: 600px) {
     .main-box {
       width: calc(100% - 60px);
-      padding: 0 0 0 0.5rem; } }
+      padding: 4rem 0 0 0.5rem; } }
   .main-box h4 {
     font-size: 0.7rem;
     padding-bottom: 2.5rem; }
@@ -392,7 +392,8 @@ footer {
           float: left; }
 
 #products .sub-container {
-  padding: 0 8.5rem; }
+  max-width: 1000px;
+  margin: auto; }
   @media (max-width: 1060px) {
     #products .sub-container {
       padding: 0 1rem; } }
@@ -519,12 +520,12 @@ footer {
               float: left; } }
           @media (max-width: 600px) {
             #products .sub-container .gomu .detail .img.right {
-              float: none;
-              margin: 0 auto; } }
+              float: none; } }
         @media (max-width: 600px) {
           #products .sub-container .gomu .detail .img {
             float: none;
-            width: 220px; } }
+            width: 220px;
+            margin: 0 auto; } }
         @media (max-width: 600px) {
           #products .sub-container .gomu .detail .img img {
             width: 220px; } }
@@ -587,8 +588,15 @@ footer {
     #news .container .main-box .date-box .date {
       float: left;
       width: 5rem; }
+      @media (max-width: 600px) {
+        #news .container .main-box .date-box .date {
+          float: none;
+          width: auto; } }
     #news .container .main-box .date-box .txt {
       float: left; }
+      @media (max-width: 600px) {
+        #news .container .main-box .date-box .txt {
+          float: none; } }
       #news .container .main-box .date-box .txt p {
         line-height: 1.8; }
 
