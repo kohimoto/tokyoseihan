@@ -11,65 +11,19 @@ include("../header.php");
 	  	<h2><span>CORPORATE INFORMATION</span><br>企業情報</h2>
 		</div>
 		<div class="main-box">
-			<p>技術革新が進み利便性が向上し、これまでにない常識が次々と生み出される現代。<br>
-人々のニーズはより細分化され、複雑化することが想像に難くありません。<br>
-今後さらに多様化、高度化していくニーズにフレキシブルかつ柔軟に対応することが<br>
-次世代にフィットした暮らしと先進的な社会を築く礎になると考えています。</p>
+				<ul>
+					<li class="name-box"><div class="type">商　号</div><div class="name">株式会社　東京製版</div></li>
+					<li class="name-box"><div class="type">代表者</div><div class="name">代表取締役　山本利治</div></li>
+					<li class="name-box"><div class="type">設　立</div><div class="name">昭和５１年７月２４日</div></li>
+					<li class="name-box"><div class="type">資本金</div><div class="name">１,０００万円</div></li>
+					<li class="name-box"><div class="type">事業内容</div><div class="name">ゴム印・樹脂印・浸透印の製造販売</div></li>
+					<li class="name-box"><div class="type">従業員</div><div class="name">６０名</div></li>
+					<li class="name-box"><div class="type">所在地</div><div class="name">・本社工場<br>東京都墨田区八広６丁目３６番地１５<br>Tel.０３－３６１０－３３２５（代表）<br>Fax.０３－３６１９－８５９５<br>・分室<br>東京都墨田区八広４丁目２６－７</div></li>
+					<li class="name-box"><div class="type">主要取引銀行</div><div class="name">東京東信用金庫　本店<br>東京三菱銀行　向島支店<br>富士銀行　押上支店<br>八千代銀行　吾嬬支店</div></li>
+				</ul>
 		</div>
 		</div>
 	</div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
-        <h3>ゴム印<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-txt col-sm-6">
-        <h3>ハンコ<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
-        <h3>浸透印<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box last-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-
 </div>
 <?php
 include("../footer.php");

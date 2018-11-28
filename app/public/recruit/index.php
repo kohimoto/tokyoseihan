@@ -5,71 +5,23 @@ include("../header.php");
 	<div id="main">
     <img src="/images/yoko100_dmy.png" alt="技術と品質">
 	</div>
-	<div id="technology">
+	<div id="recruit">
 		<div class="container">
 		<div class="main-txt">
-	  	<h2><span>TECHNOLOGY & QUALITY</span><br>技術と品質</h2>
+	  	<h2><span>RECRUIT</span><br>リクルート</h2>
 		</div>
 		<div class="main-box">
-			<p>技術革新が進み利便性が向上し、これまでにない常識が次々と生み出される現代。<br>
-人々のニーズはより細分化され、複雑化することが想像に難くありません。<br>
-今後さらに多様化、高度化していくニーズにフレキシブルかつ柔軟に対応することが<br>
-次世代にフィットした暮らしと先進的な社会を築く礎になると考えています。</p>
+			<p>新たな価値と魅力を生活者視点で探求し提供すること、<br>
+				無印良品を中心とした「感じ良いくらし」の提案を通し社会に貢献していくこと＿＿<br>
+				この企業活動を持続的に行ない成長を続ける良品計画グループで、<br>
+				いっしょにはたらいてみませんか。ご応募をお待ちしています。</p>
+			<p class="bosyu">募集職種<br>・製版作業職<br>・営業職<br>・事務、経理職</p>
+			<div class="btn">
+				<a href="mailto:#" target="_blank">応募フォーム</a>
+			</div>
 		</div>
 		</div>
 	</div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
-        <h3>ゴム印<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-txt col-sm-6">
-        <h3>ハンコ<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
-        <h3>浸透印<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box last-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-
 </div>
 <?php
 include("../footer.php");

@@ -524,3 +524,69 @@ footer {
     margin-bottom: 227px;
   }
 }
+
+
+
+
+
+
+
+
+
+#corporate {
+  padding: 5.5rem 0 12rem;
+  overflow: hidden;
+  h2::after {
+    top: 110%;
+  }
+  .main-box{
+    ul{
+      border-top: 1px solid #000;
+      .name-box{
+        overflow: hidden;
+        font-size: 0.7rem;
+        padding: 0.4rem 1rem;
+        border-bottom: 1px solid #000;
+        line-height: 2.6;
+        .type{
+          float: left;
+          width: 20%;
+        }
+        .name{
+          float: left;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+#recruit {
+  padding: 5.5rem 0 12rem;
+  overflow: hidden;
+  .main-box{
+    .bosyu {
+      padding: 2.5rem 0;
+      font-family: $font_zen;
+    }
+    .btn{
+      a {
+        padding: 1rem 4rem;
+        background-color: #e94a16;
+        color: #fff;
+        font-family: $font_zen;
+        position: static;
+      }
+      a::after {
+        position: static;
+        height: 0;
+        background: none;
+      }
+      a:hover {
+        opacity: 0.7;
+        transition: all 0.3s;
+      }
+    }
+  }
+
+}
