@@ -39,6 +39,10 @@ $sp: 480px;     // sp
 * ======================================================= */
 html {
   font-size: 20px;
+  @include sp {
+    font-size: 16.6666px;
+
+   }
 }
 body {
   font-family: $font_koz;
@@ -213,14 +217,25 @@ footer {
 .main-txt {
   width: 200px;
   float: left;
+  @include tab {
+   width: 100px;
+  padding: 0 0 0 1rem;
+   }
 }
 .main-box {
   float: left;
   width: calc(100% - 200px);
   text-align: left;
+  @include tab {
+  width: calc(100% - 100px);
+  padding: 0 0 0 1rem;
+   }
   h4 {
     font-size: 0.7rem;
     padding-bottom: 2.5rem;
+    @include tab {
+      padding-bottom: 1rem;
+     }
   }
   p {
     font-size: 0.6rem;
@@ -241,6 +256,11 @@ footer {
     width: 200px;
     float: left;
     height: calc(100vh - 15px);
+    @include tab {
+       float: none;
+       position: absolute;
+       z-index: 1;
+     }
      h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
@@ -254,12 +274,28 @@ footer {
       color: $gray_color;
       letter-spacing: 0;
       padding: 0 44px;
+      @include tab {
+        color: #fff;
+       }
     }
   }
   .main-box {
+    @include tab {
+       float: none;
+       width: 100%;
+     }
     img {
       width: 100%;
       height: calc(100vh - 15px);
+      @include tab {
+         width: auto;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+       }
     }
   }
   .scroll {
@@ -274,6 +310,9 @@ footer {
 #mission {
   padding: 10rem 0 8rem;
   overflow:hidden;
+  @include tab {
+    padding: 5rem 0;
+   }
 }
 #products {
   .container{

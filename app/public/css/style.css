@@ -21,6 +21,9 @@
 * ======================================================= */
 html {
   font-size: 20px; }
+  @media (max-width: 480px) {
+    html {
+      font-size: 16.6666px; } }
 
 body {
   font-family: kozuka-mincho-pr6n, serif;
@@ -186,14 +189,25 @@ footer {
 .main-txt {
   width: 200px;
   float: left; }
+  @media (max-width: 1060px) {
+    .main-txt {
+      width: 100px;
+      padding: 0 0 0 1rem; } }
 
 .main-box {
   float: left;
   width: calc(100% - 200px);
   text-align: left; }
+  @media (max-width: 1060px) {
+    .main-box {
+      width: calc(100% - 100px);
+      padding: 0 0 0 1rem; } }
   .main-box h4 {
     font-size: 0.7rem;
     padding-bottom: 2.5rem; }
+    @media (max-width: 1060px) {
+      .main-box h4 {
+        padding-bottom: 1rem; } }
   .main-box p {
     font-size: 0.6rem;
     line-height: 3; }
@@ -209,6 +223,11 @@ footer {
     width: 200px;
     float: left;
     height: calc(100vh - 15px); }
+    @media (max-width: 1060px) {
+      #main .main-txt {
+        float: none;
+        position: absolute;
+        z-index: 1; } }
     #main .main-txt h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
@@ -221,9 +240,25 @@ footer {
       color: #646464;
       letter-spacing: 0;
       padding: 0 44px; }
+      @media (max-width: 1060px) {
+        #main .main-txt p {
+          color: #fff; } }
+  @media (max-width: 1060px) {
+    #main .main-box {
+      float: none;
+      width: 100%; } }
   #main .main-box img {
     width: 100%;
     height: calc(100vh - 15px); }
+    @media (max-width: 1060px) {
+      #main .main-box img {
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); } }
   #main .scroll {
     position: absolute;
     bottom: 20px;
@@ -234,6 +269,9 @@ footer {
 #mission {
   padding: 10rem 0 8rem;
   overflow: hidden; }
+  @media (max-width: 1060px) {
+    #mission {
+      padding: 5rem 0; } }
 
 #products .container {
   padding: 5rem 0; }
