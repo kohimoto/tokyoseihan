@@ -161,7 +161,8 @@ header .navbar-default.sticky {
     -webkit-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
-    float: none; } }
+    float: none;
+    white-space: nowrap; } }
 
 header .logo-tag h1 {
   vertical-align: middle; }
