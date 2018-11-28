@@ -123,7 +123,7 @@ header {
     }
     .navbar-toggle {
       @include tab{
-        margin: 20px 0;
+        margin: 10px 0;
         &.collapsed {
           background: transparent;
         }
@@ -139,17 +139,22 @@ header {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
     width: 100%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
     border: 0;
     z-index: 3;
     padding: 0 15px;
+    .navbar-nav > li > a {
+      @include tab{
+        display: inline-block;
+      }
+    }
   }
   .navbar-default.sticky {
     transform: translateY(0);
   }
   .logo-tag {
     @include tab{
-      margin: 10px 0;
+      margin: 25px 0;
       zoom: 0.7;
     }
     h1 {
@@ -507,6 +512,9 @@ footer {
 }
 
 .other_page {
+  @include tab {
+    margin-top: 41px;
+  }
   margin-top: 60px;
   #main {
     height: auto;
