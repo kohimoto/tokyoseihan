@@ -9,7 +9,6 @@ $(function(){
     if(target.offset() !== undefined) {
     var position = target.offset().top + 300;
     $('body,html').animate({scrollTop:position}, speed, 'swing');
-    $('.navbar-collapse').removeClass('in');
   }else{
     return true;
   }
@@ -34,8 +33,6 @@ $(function(){
     return false;
   });
 
-
-  //header slide Down & Up
 
  	// Global Sticky
   var waypointsHideGlobal = $('.sticky_point').waypoint({
