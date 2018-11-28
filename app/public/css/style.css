@@ -459,3 +459,5 @@ footer {
         float: left;
         width: 80%;
         line-height: 3; }
+        #contact .inner-right dl dd a::after {
+          position: relative; }

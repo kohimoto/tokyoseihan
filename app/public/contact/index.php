@@ -27,7 +27,8 @@ include("../header.php");
           <dt>アクセス：</dt>
           <dd>京成電鉄押上線八広駅から徒歩5分</dd>
           <dt>地図:</dt>
-          <dd>下記をクリックしてください。<br><img src="/images/mfweb.gif" alt="MapFan Web"></dd>
+          <dd>下記をクリックしてください。<br>
+            <a href="http://www.mapfan.com/index.cgi?MAP=E139.49.55.5N35.43.23.0&amp;ZM=12&amp;" target="_blank"><img src="/images/mfweb.gif" border="0"></a></dd>
         </dl>
       </div>
 		</div>

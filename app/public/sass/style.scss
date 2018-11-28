@@ -555,6 +555,9 @@ footer {
         float: left;
         width: 80%;
         line-height: 3;
+        a::after{
+          position: relative;
+        }
       }
     }
   }
