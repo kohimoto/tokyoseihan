@@ -600,7 +600,7 @@ footer {
     line-height: 0;
     padding: 0 4rem 0 0;
     @include tab {
-      padding: 0;
+      padding: 0 0 2rem;
     }
     h3 {
       font-size: 2.5rem;
