@@ -157,23 +157,25 @@ footer {
   background-color: #646464;
   height: 200px;
   padding: 130px 0 0; }
-  footer .container .foot-left {
-    width: 50%;
-    float: left; }
-    footer .container .foot-left p {
-      font-size: 1.2rem;
-      font-family: Ryumin Regular KL; }
-      footer .container .foot-left p span {
-        font-size: 0.7rem;
-        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif; }
-  footer .container .foot-right {
-    width: 50%;
-    float: left; }
-    footer .container .foot-right .copy {
-      font-size: 0.5rem;
-      text-align: right;
-      font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-      padding-top: 1rem; }
+  footer .container {
+    max-width: 1300px; }
+    footer .container .foot-left {
+      width: 50%;
+      float: left; }
+      footer .container .foot-left p {
+        font-size: 1.2rem;
+        font-family: Ryumin Regular KL; }
+        footer .container .foot-left p span {
+          font-size: 0.7rem;
+          font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif; }
+    footer .container .foot-right {
+      width: 50%;
+      float: left; }
+      footer .container .foot-right .copy {
+        font-size: 0.5rem;
+        text-align: right;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        padding-top: 1rem; }
 
 .wrap {
   max-width: 1500px;
@@ -400,7 +402,7 @@ footer {
     top: 105%; }
 
 .img-box {
-  margin-bottom: 105px; }
+  margin-bottom: 115px; }
   .img-box .inner-img {
     line-height: 0;
     font-size: 0;
@@ -422,7 +424,8 @@ footer {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-align: left;
-    line-height: 0; }
+    line-height: 0;
+    padding: 0 4rem 0 0; }
     .img-box .inner-txt h3 {
       font-size: 2.5rem;
       padding: 2% 15% 0 2%;
@@ -442,12 +445,12 @@ footer {
       margin: 2% 0; }
 
 .mov-box {
-  margin-bottom: 105px; }
+  margin-bottom: 115px; }
   .mov-box img {
     width: 100%;
     display: block; }
   .mov-box.last-box {
-    margin-bottom: 227px; }
+    margin-bottom: 242px; }
 
 #corporate {
   padding: 5.5rem 0 12rem;
