@@ -303,7 +303,7 @@ footer {
   }
   .sub-container {
     padding:0 8.5rem;
-    .inner-txt {
+    .inner_txt {
     font-family: $font_koz;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
@@ -455,9 +455,6 @@ footer {
         }
         .txt{
           float: left;
-          p {
-            line-height: 1.8;
-          }
         }
       }
     }
@@ -487,7 +484,7 @@ footer {
   }
 }
 #technology {
-  padding: 10rem 0 8.5rem;
+  padding: 5.5rem 0 12rem;
   overflow: hidden;
   h2::after {
     top: 105%;
@@ -560,8 +557,8 @@ footer {
       border-top: 1px solid #000;
       .name-box{
         overflow: hidden;
-        font-size: 0.6rem;
-        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
+        padding: 0.4rem 1rem;
         border-bottom: 1px solid #000;
         line-height: 2.6;
         .type{
@@ -604,9 +601,9 @@ footer {
       }
     }
   }
-}
+  }
   #contact {
-    padding: 10rem 0 227px;
+    padding: 5.5rem 0 12rem;
     overflow: hidden;
     h2::after {
       top: 59%;
