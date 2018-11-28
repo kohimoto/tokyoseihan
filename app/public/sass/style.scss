@@ -18,6 +18,28 @@ $font_koz: kozuka-mincho-pr6n, serif;
 $font_ryu: Ryumin Regular KL;
 $font_zen: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
 $gray_color: #646464;
+
+/* =======================================================
+* media query
+* ======================================================= */
+$pc: 1024px; // PC
+$tab: 680px; // タブレット
+$sp: 480px;  // スマホ
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
 /* =======================================================
 * common
 * ======================================================= */
@@ -583,7 +605,6 @@ footer {
     }
   }
 }
-
   #contact {
     padding: 10rem 0 227px;
     overflow: hidden;
