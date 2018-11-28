@@ -17,7 +17,7 @@ include("../header.php");
 				いっしょにはたらいてみませんか。ご応募をお待ちしています。</p>
 			<p class="bosyu">募集職種<br>・製版作業職<br>・営業職<br>・事務、経理職</p>
 			<div class="btn">
-				<a href="mailto:#" target="_blank">応募フォーム</a>
+				<a href="mailto:#" target="_blank">応募はこちら</a>
 			</div>
 		</div>
 		</div>
