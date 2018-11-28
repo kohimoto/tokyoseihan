@@ -465,7 +465,7 @@ footer {
   padding: 10rem 0 8.5rem;
   overflow: hidden;
   h2::after {
-    top: 100%;
+    top: 105%;
   }
 }
 .img-box {
@@ -522,5 +522,40 @@ footer {
   }
   &.last-box {
     margin-bottom: 227px;
+  }
+}
+#contact {
+  padding: 10rem 0 227px;
+  overflow: hidden;
+  h2::after {
+    top: 59%;
+  }
+  dl {
+    font-size: 0.6rem;
+    line-height: 3;
+  }
+  .main-box {
+    overflow: hidden;
+  }
+  .inner-left {
+    float: left;
+    width: 40%;
+  }
+  .inner-right {
+    float: left;
+    width: 60%;
+    dl {
+      overflow: hidden;
+      dt {
+        float: left;
+        width: 20%;
+        line-height: 3;
+      }
+      dd {
+        float: left;
+        width: 80%;
+        line-height: 3;
+      }
+    }
   }
 }

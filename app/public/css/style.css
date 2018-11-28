@@ -381,7 +381,7 @@ footer {
   padding: 10rem 0 8.5rem;
   overflow: hidden; }
   #technology h2::after {
-    top: 100%; }
+    top: 105%; }
 
 .img-box {
   margin-bottom: 105px; }
@@ -432,3 +432,30 @@ footer {
     display: block; }
   .mov-box.last-box {
     margin-bottom: 227px; }
+
+#contact {
+  padding: 10rem 0 227px;
+  overflow: hidden; }
+  #contact h2::after {
+    top: 59%; }
+  #contact dl {
+    font-size: 0.6rem;
+    line-height: 3; }
+  #contact .main-box {
+    overflow: hidden; }
+  #contact .inner-left {
+    float: left;
+    width: 40%; }
+  #contact .inner-right {
+    float: left;
+    width: 60%; }
+    #contact .inner-right dl {
+      overflow: hidden; }
+      #contact .inner-right dl dt {
+        float: left;
+        width: 20%;
+        line-height: 3; }
+      #contact .inner-right dl dd {
+        float: left;
+        width: 80%;
+        line-height: 3; }
