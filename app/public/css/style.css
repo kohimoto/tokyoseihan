@@ -75,12 +75,18 @@ h2 {
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   position: relative; }
+  @media (max-width: 1060px) {
+    h2 {
+      font-size: 1.8rem; } }
   h2 span {
     color: #646464;
     font-size: 0.8rem;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl; }
+    @media (max-width: 1060px) {
+      h2 span {
+        font-size: 0.6rem; } }
   h2::after {
     content: "";
     position: absolute;
@@ -179,7 +185,7 @@ header.sticky_point .navbar-default {
 footer {
   background-color: #646464;
   height: 200px;
-  padding: 130px 0 0; }
+  padding: 130px 15px 0; }
   footer .container {
     max-width: 1300px; }
     footer .container .foot-left {
@@ -322,6 +328,9 @@ footer {
 
 #products .sub-container {
   padding: 0 8.5rem; }
+  @media (max-width: 1060px) {
+    #products .sub-container {
+      padding: 0 1rem; } }
   #products .sub-container .inner-txt {
     font-family: kozuka-mincho-pr6n, serif;
     -webkit-writing-mode: vertical-rl;
@@ -349,19 +358,36 @@ footer {
       line-height: 2.5; }
   #products .sub-container .gomu {
     position: relative;
-    height: 2600px; }
+    height: 2600px;
+    clear: both; }
+    @media (max-width: 1060px) {
+      #products .sub-container .gomu {
+        position: static;
+        height: auto;
+        padding-bottom: 5rem; } }
     #products .sub-container .gomu .detail {
       position: absolute;
       width: 640px; }
+      @media (max-width: 1060px) {
+        #products .sub-container .gomu .detail {
+          position: static;
+          width: auto;
+          overflow: hidden; } }
       #products .sub-container .gomu .detail.a01 {
         right: 380px; }
         #products .sub-container .gomu .detail.a01 .txt {
           padding-top: 200px; }
+          @media (max-width: 1060px) {
+            #products .sub-container .gomu .detail.a01 .txt {
+              padding-top: 120px; } }
       #products .sub-container .gomu .detail.a02 {
         top: 440px;
         right: 0px; }
         #products .sub-container .gomu .detail.a02 .txt {
           padding-top: 80px; }
+          @media (max-width: 1060px) {
+            #products .sub-container .gomu .detail.a02 .txt {
+              padding-top: 120px; } }
       #products .sub-container .gomu .detail.a03 {
         top: 720px;
         left: 0; }
@@ -390,6 +416,11 @@ footer {
       #products .sub-container .gomu .detail .img {
         width: 371px;
         float: left; }
+        #products .sub-container .gomu .detail .img.right {
+          float: right; }
+          @media (max-width: 1060px) {
+            #products .sub-container .gomu .detail .img.right {
+              float: left; } }
       #products .sub-container .gomu .detail .txt {
         width: calc(100% - 371px);
         float: left;
@@ -403,9 +434,21 @@ footer {
   #products .sub-container .shinto {
     position: relative;
     height: 900px; }
+    @media (max-width: 1060px) {
+      #products .sub-container .shinto {
+        position: static;
+        height: auto;
+        clear: both;
+        padding-bottom: 5rem; } }
     #products .sub-container .shinto .detail {
       position: absolute;
       width: 640px; }
+      @media (max-width: 1060px) {
+        #products .sub-container .shinto .detail {
+          position: static;
+          width: 469px;
+          margin: 0 auto;
+          overflow: hidden; } }
       #products .sub-container .shinto .detail.a01 {
         top: 60px;
         right: 380px; }
@@ -420,6 +463,9 @@ footer {
 
 #news .container {
   padding: 5.5rem 0 9rem; }
+  @media (max-width: 1060px) {
+    #news .container {
+      padding: 5rem 0; } }
   #news .container .main-box .date-box {
     overflow: hidden;
     font-size: 0.6rem;
