@@ -219,6 +219,8 @@ footer {
     position: absolute;
     bottom: 20px;
     left: 50%; }
+    #main .scroll img {
+      cursor: pointer; }
 
 #mission {
   padding: 10rem 0 8.5rem;
