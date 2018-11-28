@@ -303,7 +303,7 @@ footer {
   }
   @include sp {
     width: calc(100% - 60px);
-    padding: 4rem 0 0 0.5rem;
+    padding: 0 0 0 0.5rem;
     }
 
   h4 {
@@ -326,7 +326,13 @@ footer {
     width: 100%;
   }
 }
-
+.top .main-box ,
+#technology .main-box {
+  @include sp {
+    width: calc(100% - 60px);
+    padding: 4rem 0 0 0.5rem;
+    }
+}
 #main{
   height: calc(100vh - 15px);
   overflow: hidden;
@@ -402,12 +408,15 @@ footer {
     padding: 5rem 0;
    }
    @include sp {
-     padding: 4rem 0;
+     padding: 2rem 0 5rem;
     }
 }
 #products {
   .container{
     padding: 5rem 0;
+    @include sp {
+      padding: 2rem 0 5rem;
+    }
     .main-box {
       overflow:hidden;
     .box {
@@ -475,6 +484,9 @@ footer {
       margin: 2% 0;
       &.second{
       height: 315px;
+      @include sp {
+        height: 280px;
+       }
       }
     }
     p {
@@ -645,11 +657,23 @@ footer {
           margin: 0 auto;
           overflow: hidden;
          }
+         @include sp {
+           width: auto;
+          }
         &.a01{
           top:60px;
           right: 380px;
         }
         .img {
+          @include sp {
+            width: 300px;
+            margin: 0 auto;
+           }
+           img{
+             @include sp {
+               width: 300px;
+              }
+           }
         }
         .txt {
           text-align: left;
@@ -677,6 +701,9 @@ footer {
       @include tab {
       padding: 5rem 0;
        }
+       @include sp {
+        padding: 2rem 0 5rem;
+        }
     .main-box{
       .date-box{
         overflow: hidden;

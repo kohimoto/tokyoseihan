@@ -275,7 +275,7 @@ footer {
   @media (max-width: 600px) {
     .main-box {
       width: calc(100% - 60px);
-      padding: 4rem 0 0 0.5rem; } }
+      padding: 0 0 0 0.5rem; } }
   .main-box h4 {
     font-size: 0.7rem;
     padding-bottom: 2.5rem; }
@@ -291,6 +291,12 @@ footer {
 
 .main-img img {
   width: 100%; }
+
+@media (max-width: 600px) {
+  .top .main-box,
+  #technology .main-box {
+    width: calc(100% - 60px);
+    padding: 4rem 0 0 0.5rem; } }
 
 #main {
   height: calc(100vh - 15px);
@@ -360,10 +366,13 @@ footer {
       padding: 5rem 0; } }
   @media (max-width: 600px) {
     #mission {
-      padding: 4rem 0; } }
+      padding: 2rem 0 5rem; } }
 
 #products .container {
   padding: 5rem 0; }
+  @media (max-width: 600px) {
+    #products .container {
+      padding: 2rem 0 5rem; } }
   #products .container .main-box {
     overflow: hidden; }
     #products .container .main-box .box {
@@ -424,6 +433,9 @@ footer {
       margin: 2% 0; }
       #products .sub-container .inner-txt span.second {
         height: 315px; }
+        @media (max-width: 600px) {
+          #products .sub-container .inner-txt span.second {
+            height: 280px; } }
     #products .sub-container .inner-txt p {
       font-size: 0.6rem;
       padding: 2% 5% 0 0;
@@ -566,9 +578,19 @@ footer {
           width: 469px;
           margin: 0 auto;
           overflow: hidden; } }
+      @media (max-width: 600px) {
+        #products .sub-container .shinto .detail {
+          width: auto; } }
       #products .sub-container .shinto .detail.a01 {
         top: 60px;
         right: 380px; }
+      @media (max-width: 600px) {
+        #products .sub-container .shinto .detail .img {
+          width: 300px;
+          margin: 0 auto; } }
+      @media (max-width: 600px) {
+        #products .sub-container .shinto .detail .img img {
+          width: 300px; } }
       #products .sub-container .shinto .detail .txt {
         text-align: left; }
         #products .sub-container .shinto .detail .txt h4 {
@@ -583,6 +605,9 @@ footer {
   @media (max-width: 1060px) {
     #news .container {
       padding: 5rem 0; } }
+  @media (max-width: 600px) {
+    #news .container {
+      padding: 2rem 0 5rem; } }
   #news .container .main-box .date-box {
     overflow: hidden;
     font-size: 0.6rem;
