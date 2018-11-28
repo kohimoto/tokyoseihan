@@ -115,6 +115,20 @@ header {
   .container {
     line-height: 1;
     max-width: 1300px;
+    .navbar-header {
+      margin: inherit;
+    }
+    .navbar-collapse {
+      border: none;
+    }
+    .navbar-toggle {
+      @include tab{
+        margin: 20px 0;
+        &.collapsed {
+          background: transparent;
+        }
+      }
+    }
   }
   .navbar-default {
     left: 0;
@@ -128,11 +142,16 @@ header {
     background-color: rgba(255,255,255,0.5);
     border: 0;
     z-index: 3;
+    padding: 0 15px;
   }
   .navbar-default.sticky {
     transform: translateY(0);
   }
   .logo-tag {
+    @include tab{
+      margin: 10px 0;
+      zoom: 0.7;
+    }
     h1 {
       vertical-align: middle;
       a {
