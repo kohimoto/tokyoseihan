@@ -79,12 +79,12 @@ include("./header.php");
 					</div>
 				</article>
 				<article class="detail a02" id="g02">
+					<div class="img right">
+						<img src="/images/hanko_dmy.png" alt="「ニギリ台」">
+					</div>
 					<div class="txt">
 						<h4>「ニギリ台」</h4>
 						<p>ノベ台にプラスチックの取っ手をつけた台木。<br>見出しはつきませんが、押しやすく、<br>手も汚れにくいのが特徴です。<br>住所判など少し大きめのゴム印に最適です。</p>
-					</div>
-					<div class="img">
-						<img src="/images/hanko_dmy.png" alt="「ニギリ台」">
 					</div>
 				</article>
 				<article class="detail a03" id="g03">
@@ -115,12 +115,12 @@ include("./header.php");
 					</div>
 				</article>
 				<article class="detail a06" id="g06">
+					<div class="img right">
+						<img src="/images/hanko_dmy.png" alt="「親子台木」">
+					</div>
 					<div class="txt">
 						<h4>「親子台木」</h4>
 						<p>組み合わせ式の台木。住所・氏名・電話番などを<br>別々の台木で作り、あとで必要なものだけを<br>組み合わせて捺印することができます。<br>複数の住所や支店名など、<br>また一部だけを使い分ける用途に最適です。</p>
-					</div>
-					<div class="img">
-						<img src="/images/hanko_dmy.png" alt="「親子台木」">
 					</div>
 				</article>
 				<article class="detail a07" id="g07">

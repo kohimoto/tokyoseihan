@@ -41,7 +41,6 @@ html {
   font-size: 20px;
   @include sp {
     font-size: 16.6666px;
-
    }
 }
 body {
@@ -86,12 +85,18 @@ h2 {
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   position: relative;
+  @include tab {
+    font-size: 1.8rem;
+   }
   span {
     color: $gray_color;
     font-size: 0.8rem;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
+    @include tab {
+      font-size: 0.6rem;
+     }
   }
   &::after {
     content: "";
@@ -204,7 +209,7 @@ header {
 footer {
   background-color: $gray_color;
   height: 200px;
-  padding: 130px 0 0;
+  padding: 130px 15px 0;
   .container {
     max-width: 1300px;
     .foot-left {
@@ -376,6 +381,9 @@ footer {
   }
   .sub-container {
     padding:0 8.5rem;
+    @include tab {
+      padding:0 1rem;
+     }
     .inner-txt {
     font-family: $font_koz;
     -webkit-writing-mode: vertical-rl;
@@ -410,13 +418,27 @@ footer {
     .gomu {
       position: relative;
       height: 2600px;
+      clear: both;
+      @include tab {
+        position: static;
+        height: auto;
+        padding-bottom: 5rem;
+       }
       .detail {
         position: absolute;
         width: 640px;
+        @include tab {
+          position: static;
+          width: auto;
+          overflow: hidden;
+         }
         &.a01{
           right: 380px;
           .txt{
             padding-top: 200px;
+            @include tab {
+              padding-top: 120px;
+             }
           }
         }
         &.a02{
@@ -424,6 +446,9 @@ footer {
           right: 0px;
           .txt{
             padding-top: 80px;
+            @include tab {
+              padding-top: 120px;
+             }
           }
         }
         &.a03{
@@ -464,6 +489,12 @@ footer {
         .img {
           width: 371px;
           float:left;
+          &.right{
+            float: right;
+            @include tab {
+              float: left;
+             }
+          }
         }
         .txt {
           width: calc(100% - 371px);
@@ -484,9 +515,21 @@ footer {
     .shinto {
       position: relative;
       height: 900px;
+      @include tab {
+        position: static;
+        height: auto;
+        clear: both;
+        padding-bottom: 5rem;
+       }
       .detail {
         position: absolute;
         width: 640px;
+        @include tab {
+          position: static;
+          width: 469px;
+          margin: 0 auto;
+          overflow: hidden;
+         }
         &.a01{
           top:60px;
           right: 380px;
@@ -516,6 +559,9 @@ footer {
 #news{
   .container{
       padding: 5.5rem 0 9rem;
+      @include tab {
+      padding: 5rem 0;
+       }
     .main-box{
       .date-box{
         overflow: hidden;
