@@ -103,6 +103,15 @@ h4 {
 header .container {
   line-height: 1;
   max-width: 1300px; }
+  header .container .navbar-header {
+    margin: inherit; }
+  header .container .navbar-collapse {
+    border: none; }
+  @media (max-width: 1060px) {
+    header .container .navbar-toggle {
+      margin: 10px 0; }
+      header .container .navbar-toggle.collapsed {
+        background: transparent; } }
 
 header .navbar-default {
   left: 0;
@@ -118,14 +127,25 @@ header .navbar-default {
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   border: 0;
-  z-index: 3; }
+  z-index: 3;
+  padding: 0 15px; }
+  @media (max-width: 1060px) {
+    header .navbar-default .navbar-nav > li > a {
+      display: inline-block;
+      padding: 10px 5px;
+      margin: 12px 40px; } }
 
 header .navbar-default.sticky {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0); }
+
+@media (max-width: 1060px) {
+  header .logo-tag {
+    margin: 25px 0;
+    zoom: 0.7; } }
 
 header .logo-tag h1 {
   vertical-align: middle; }
@@ -427,6 +447,9 @@ footer {
 
 .other_page {
   margin-top: 60px; }
+  @media (max-width: 1060px) {
+    .other_page {
+      margin-top: 41px; } }
   .other_page #main {
     height: auto; }
     .other_page #main img {

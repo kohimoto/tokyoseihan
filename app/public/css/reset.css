@@ -99,7 +99,7 @@ header .navbar-default .navbar-nav li a {
 .animate-box {
   opacity: 0;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1060px) {
   header .logo-tag {
     float: left;
     margin: 8px 0 8px 15px;
