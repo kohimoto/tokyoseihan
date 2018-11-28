@@ -22,14 +22,8 @@ $gray_color: #646464;
 /* =======================================================
 * media query
 * ======================================================= */
-$pc: 1024px; // PC
-$tab: 680px; // タブレット
-$sp: 480px;  // スマホ
-@mixin pc {
-  @media (max-width: ($pc)) {
-    @content;
-  }
-}
+$tab: 1060px;   // tab
+$sp: 480px;     // sp
 @mixin tab {
   @media (max-width: ($tab)) {
     @content;
