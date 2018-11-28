@@ -1,5 +1,5 @@
 $(function(){
-//recruit anchor
+  //menu anchor
   $(".menu li").click(function(){
     var target = $(this).attr("class");
     var speed = 1000; // ミリ秒
@@ -15,23 +15,40 @@ $(function(){
     return false;
 
   });
-//  $('.scroll').click(function(){
-//    var pos = $(window).offset();
-//    $('body,html').animate({scrollTop:'200px'}, 1000, 'swing');
-//  });
 
-//scroll & fadeIn
+  //scroll to down
+  $('.scroll').click(function(){
+    var pos = $(window).offset();
+    var pos_down = $(document).height()-$(window).height();
+    $('body,html').animate({scrollTop: pos_down}, 1000, 'swing');
+  });
+
+    //scroll to top
+    $(".scroll-top img").on("click", function() {
+       $("html, body").animate({ scrollTop: 0 }, 1000);
+      return false;
+    });
+
+  //hanko anchor
+  $('.anchor a').click(function(){
+    var target = $(this).attr("class");
+    var speed = 1000; // ミリ秒
+    var targetid = "#" + $(this).attr("class");
+    var target = $(targetid);
+    if(target.offset() !== undefined) {
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+    }
+    return false;
+  });
+
+
+  //scroll & fadeIn
   $('.fadein').animateCssPlus({
     scroll:true,
     class:'fadeInUp'
   });
 
-
-  //Tab to top
-  $(".scroll-top img").on("click", function() {
-     $("html, body").animate({ scrollTop: 0 }, 1000);
-    return false;
-  });
 
 
  	// Global Sticky
