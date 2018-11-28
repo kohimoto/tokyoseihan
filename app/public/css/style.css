@@ -177,7 +177,14 @@ footer {
 
 .main-box {
   float: left;
-  width: calc(100% - 200px); }
+  width: calc(100% - 200px);
+  text-align: left; }
+  .main-box h4 {
+    font-size: 0.7rem;
+    padding-bottom: 2.5rem; }
+  .main-box p {
+    font-size: 0.6rem;
+    line-height: 3; }
 
 .main-img img {
   width: 100%; }
@@ -213,26 +220,11 @@ footer {
 #mission {
   padding: 10rem 0 8.5rem;
   overflow: hidden; }
-  #mission .main-box {
-    text-align: left; }
-    #mission .main-box h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem; }
-    #mission .main-box p {
-      font-size: 0.6rem;
-      line-height: 3; }
 
 #products .container {
   padding: 8.5rem 0; }
   #products .container .main-box {
-    text-align: left;
     overflow: hidden; }
-    #products .container .main-box h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem; }
-    #products .container .main-box p {
-      font-size: 0.6rem;
-      line-height: 3; }
     #products .container .main-box .box {
       border: 1px solid #000;
       width: 48%;
@@ -390,14 +382,6 @@ footer {
   overflow: hidden; }
   #technology h2::after {
     top: 100%; }
-  #technology .main-box {
-    text-align: left; }
-    #technology .main-box h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem; }
-    #technology .main-box p {
-      font-size: 0.6rem;
-      line-height: 3; }
 
 .img-box {
   margin-bottom: 105px; }

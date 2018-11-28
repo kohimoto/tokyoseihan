@@ -190,6 +190,15 @@ footer {
 .main-box {
   float: left;
   width: calc(100% - 200px);
+  text-align: left;
+  h4 {
+    font-size: 0.7rem;
+    padding-bottom: 2.5rem;
+  }
+  p {
+    font-size: 0.6rem;
+    line-height: 3;
+  }
 }
 .main-img {
   img{
@@ -235,32 +244,12 @@ footer {
 #mission {
   padding: 10rem 0 8.5rem;
   overflow:hidden;
-  .main-box {
-      text-align: left;
-    h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem;
-    }
-    p {
-      font-size: 0.6rem;
-      line-height: 3;
-    }
-  }
 }
 #products {
   .container{
     padding: 8.5rem 0;
     .main-box {
-      text-align: left;
       overflow:hidden;
-      h4 {
-        font-size: 0.7rem;
-        padding-bottom: 2.5rem;
-      }
-      p {
-        font-size: 0.6rem;
-        line-height: 3;
-      }
     .box {
       border: 1px solid #000;
       width: 48%;
@@ -477,17 +466,6 @@ footer {
   overflow: hidden;
   h2::after {
     top: 100%;
-  }
-  .main-box {
-      text-align: left;
-    h4 {
-      font-size: 0.7rem;
-      padding-bottom: 2.5rem;
-    }
-    p {
-      font-size: 0.6rem;
-      line-height: 3;
-    }
   }
 }
 .img-box {
