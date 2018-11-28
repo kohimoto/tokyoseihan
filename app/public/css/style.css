@@ -366,6 +366,8 @@ footer {
 
 #news .scroll-top {
   padding-bottom: 1.5rem; }
+  #news .scroll-top img {
+    cursor: pointer; }
 
 .hanko_foot {
   position: relative; }

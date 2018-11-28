@@ -1,5 +1,5 @@
 $(function(){
-//recruit anchor
+  //menu anchor
   $(".menu li").click(function(){
     var target = $(this).attr("class");
     var speed = 1000; // ミリ秒
@@ -20,7 +20,21 @@ $(function(){
 //    $('body,html').animate({scrollTop:'200px'}, 1000, 'swing');
 //  });
 
-//scroll & fadeIn
+  //hanko anchor
+  $('.anchor a').click(function(){
+    var target = $(this).attr("class");
+    var speed = 1000; // ミリ秒
+    var targetid = "#" + $(this).attr("class");
+    var target = $(targetid);
+    if(target.offset() !== undefined) {
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+    }
+    return false;
+  });
+
+
+  //scroll & fadeIn
   $('.fadein').animateCssPlus({
     scroll:true,
     class:'fadeInUp'
