@@ -5,70 +5,35 @@ include("../header.php");
 	<div id="main">
     <img src="/images/yoko100_dmy.png" alt="技術と品質">
 	</div>
-	<div id="technology">
+  	<div id="contact">
 		<div class="container">
 		<div class="main-txt">
-	  	<h2><span>TECHNOLOGY & QUALITY</span><br>技術と品質</h2>
+	  	<h2><span>CONTACT US</span><br>お問い合わせ</h2>
 		</div>
 		<div class="main-box">
-			<p>技術革新が進み利便性が向上し、これまでにない常識が次々と生み出される現代。<br>
-人々のニーズはより細分化され、複雑化することが想像に難くありません。<br>
-今後さらに多様化、高度化していくニーズにフレキシブルかつ柔軟に対応することが<br>
-次世代にフィットした暮らしと先進的な社会を築く礎になると考えています。</p>
+      <div class="inner-left">
+        <p>株式会社東京製版<br />東京都墨田区八広６丁目３６番地１５</p>
+      </div>
+      <div class="inner-right">
+        <dl>
+          <dt>Tel.</dt>
+          <dd>０３－３６１０－３３２５（代表）</dd>
+          <dt>Fax.</dt>
+          <dd>０３－３６１９－８５９５</dd>
+          <dt>担当：</dt>
+          <dd>経営企画室　遠藤章光</dd>
+          <dt>E-mail:</dt>
+          <dd><a href="mailto:&#101;&#110;&#100;&#111;&#64;&#116;&#111;&#107;&#121;&#111;&#45;&#115;&#101;&#105;&#104;&#97;&#110;&#46;&#99;&#111;&#46;&#106;&#112;">&#101;&#110;&#100;&#111;&#64;&#116;&#111;&#107;&#121;&#111;&#45;&#115;&#101;&#105;&#104;&#97;&#110;&#46;&#99;&#111;&#46;&#106;&#112;</a></dd>
+          <dt>アクセス：</dt>
+          <dd>京成電鉄押上線八広駅から徒歩5分</dd>
+          <dt>地図:</dt>
+          <dd>下記をクリックしてください。<br>
+            <a href="http://www.mapfan.com/index.cgi?MAP=E139.49.55.5N35.43.23.0&amp;ZM=12&amp;" target="_blank"><img src="/images/mfweb.gif" border="0"></a></dd>
+        </dl>
+      </div>
 		</div>
 		</div>
 	</div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
-        <h3>ゴム印<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-txt col-sm-6">
-        <h3>ハンコ<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
-  <div class="img-box">
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-txt col-sm-6">
-        <h3>浸透印<br>製造過程</h3>
-        <span></span>
-        <p>印面が天然ゴムによる赤ゴムと、<br>耐油性のある黒ゴム素材のもの、<br>またはゴムではない<br>半透明の合成樹脂を使ったスタンプ。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-      <div class="inner-img col-sm-6"><img src="/images/gijyutu_dmy.png"></div>
-    </div>
-  </div>
-  <div class="mov-box last-box">
-    <img src="/images/yoko100_dmy.png" alt="">
-  </div>
 
 </div>
 <?php

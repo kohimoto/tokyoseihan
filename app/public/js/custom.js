@@ -21,7 +21,7 @@ $(function(){
 //  });
 
 //scroll & fadeIn
-  $('.animate-box').animateCssPlus({
+  $('.fadein').animateCssPlus({
     scroll:true,
     class:'fadeInUp'
   });

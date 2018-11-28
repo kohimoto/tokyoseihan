@@ -250,18 +250,18 @@ footer {
 
 #products .sub-container {
   padding: 0 8.5rem; }
-  #products .sub-container .inner-txt {
+  #products .sub-container .inner_txt {
     font-family: kozuka-mincho-pr6n, serif;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-align: left;
     float: right; }
-    #products .sub-container .inner-txt h3 {
+    #products .sub-container .inner_txt h3 {
       font-size: 2.5rem;
       padding: 2% 15% 0 2%;
       line-height: 1.3; }
-    #products .sub-container .inner-txt span {
+    #products .sub-container .inner_txt span {
       border-right: 1px solid;
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
@@ -269,9 +269,9 @@ footer {
       height: 215px;
       display: block;
       margin: 2% 0; }
-      #products .sub-container .inner-txt span.second {
+      #products .sub-container .inner_txt span.second {
         height: 315px; }
-    #products .sub-container .inner-txt p {
+    #products .sub-container .inner_txt p {
       font-size: 0.6rem;
       padding: 2% 5% 0 0;
       line-height: 2.5; }
@@ -381,7 +381,7 @@ footer {
   padding: 10rem 0 8.5rem;
   overflow: hidden; }
   #technology h2::after {
-    top: 100%; }
+    top: 105%; }
 
 .img-box {
   margin-bottom: 105px; }
@@ -433,6 +433,7 @@ footer {
   .mov-box.last-box {
     margin-bottom: 227px; }
 
+<<<<<<< HEAD
 #corporate {
   padding: 5.5rem 0 12rem;
   overflow: hidden; }
@@ -474,3 +475,33 @@ footer {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
+=======
+#contact {
+  padding: 10rem 0 227px;
+  overflow: hidden; }
+  #contact h2::after {
+    top: 59%; }
+  #contact dl {
+    font-size: 0.6rem;
+    line-height: 3; }
+  #contact .main-box {
+    overflow: hidden; }
+  #contact .inner-left {
+    float: left;
+    width: 40%; }
+  #contact .inner-right {
+    float: left;
+    width: 60%; }
+    #contact .inner-right dl {
+      overflow: hidden; }
+      #contact .inner-right dl dt {
+        float: left;
+        width: 20%;
+        line-height: 3; }
+      #contact .inner-right dl dd {
+        float: left;
+        width: 80%;
+        line-height: 3; }
+        #contact .inner-right dl dd a::after {
+          position: relative; }
+>>>>>>> 6c9dfea59ec2ccebf83d137b50fdcb383a3f6337
