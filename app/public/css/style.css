@@ -790,7 +790,8 @@ footer {
       #contact .inner-right dl dt {
         float: left;
         width: 20%;
-        line-height: 3; }
+        line-height: 3;
+        white-space: nowrap; }
       #contact .inner-right dl dd {
         float: left;
         width: 80%;
