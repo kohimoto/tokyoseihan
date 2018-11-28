@@ -3,7 +3,6 @@ $(function(){
   $(".menu li").click(function(){
     var target = $(this).attr("class");
     var speed = 1000; // ミリ秒
-    //var target = $(".head02");
     var targetid = "#" + $(this).attr("class");
     var target = $(targetid);
     if(target.offset() !== undefined) {
@@ -23,11 +22,11 @@ $(function(){
     $('body,html').animate({scrollTop: pos_down}, 1000, 'swing');
   });
 
-    //scroll to top
-    $(".scroll-top img").on("click", function() {
-       $("html, body").animate({ scrollTop: 0 }, 1000);
-      return false;
-    });
+  //scroll to top
+  $(".scroll-top img").on("click", function() {
+     $("html, body").animate({ scrollTop: 0 }, 1000);
+    return false;
+  });
 
   //hanko anchor
   $('.anchor a').click(function(){
@@ -62,6 +61,7 @@ $(function(){
 		},
   	offset: '0'
 	});
+  // other page  Sticky
   $('.other_page').prev('header').addClass('sticky_point');
 
   });

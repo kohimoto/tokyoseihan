@@ -166,7 +166,9 @@ header {
   .logo-tag {
     @include tab{
       margin: 25px 0;
-      zoom: 0.7;
+      margin: 16px 0;
+      transform: scale(0.7);
+      transform-origin: 0 0;
     }
     h1 {
       vertical-align: middle;
@@ -738,7 +740,7 @@ footer {
     line-height: 0;
     padding: 0 4rem 0 0;
     @include tab {
-      padding: 0;
+      padding: 0 0 2rem;
     }
     h3 {
       font-size: 2.5rem;
