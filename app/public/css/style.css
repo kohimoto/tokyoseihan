@@ -97,6 +97,9 @@ h2 {
     height: 60px;
     margin: auto;
     background: #646464; }
+    @media (max-width: 600px) {
+      h2::after {
+        right: 14px; } }
 
 .container {
   max-width: 1024px;

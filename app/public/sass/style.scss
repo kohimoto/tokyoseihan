@@ -108,6 +108,9 @@ h2 {
     height: 60px;
     margin: auto;
     background: $gray_color;
+    @include sp {
+      right: 14px;
+    }
   }
 }
 .container {
