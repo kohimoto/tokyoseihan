@@ -210,6 +210,10 @@ footer {
   background-color: $gray_color;
   height: 200px;
   padding: 130px 15px 0;
+  @include tab{
+    height: 120px;
+    padding: 70px 15px 0;
+  }
   .container {
     max-width: 1300px;
     .foot-left {
@@ -218,9 +222,15 @@ footer {
       p {
         font-size: 1.2rem;
         font-family: $font_ryu;
+        @include tab{
+          font-size: 1rem;
+        }
         span{
           font-size: 0.7rem;
           font-family: $font_zen;
+          @include tab{
+            font-size: 0.6rem;
+          }
         }
       }
     }
@@ -232,6 +242,9 @@ footer {
         text-align: right;
         font-family: $font_zen;
         padding-top: 1rem;
+        @include tab{
+        padding-top: 0.5rem;
+        }
       }
     }
   }
@@ -252,6 +265,10 @@ footer {
    width: 100px;
   padding: 0 0 0 1rem;
    }
+   @include sp {
+     width: 60px;
+     padding: 0;
+    }
 }
 .main-box {
   float: left;
@@ -260,7 +277,12 @@ footer {
   @include tab {
   width: calc(100% - 100px);
   padding: 0 0 0 1rem;
-   }
+  }
+  @include sp {
+    width: calc(100% - 60px);
+    padding: 0 0 0 0.5rem;
+    }
+
   h4 {
     font-size: 0.7rem;
     padding-bottom: 2.5rem;
@@ -271,6 +293,9 @@ footer {
   p {
     font-size: 0.6rem;
     line-height: 3;
+    @include sp {
+      line-height: 2.2;
+    }
   }
 }
 .main-img {
@@ -291,13 +316,20 @@ footer {
        float: none;
        position: absolute;
        z-index: 1;
+      height: auto;
      }
+     @include sp {
+       width: auto;
+      }
      h1 {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
       font-size: 2rem;
       padding: 180px 50px;
+      @include sp {
+        padding: 50px 10px;
+       }
      }
     p {
       font-size: 0.6rem;
@@ -307,6 +339,7 @@ footer {
       padding: 0 44px;
       @include tab {
         color: #fff;
+        padding: 0 10px;
        }
     }
   }
@@ -333,6 +366,7 @@ footer {
     position: absolute;
     bottom:20px;
     left:50%;
+    margin-left: -24.5px;
     img {
       cursor: pointer;
     }
@@ -344,6 +378,9 @@ footer {
   @include tab {
     padding: 5rem 0;
    }
+   @include sp {
+     padding: 4rem 0;
+    }
 }
 #products {
   .container{
@@ -358,6 +395,11 @@ footer {
       margin-top: 1rem;
       &:first-of-type{
         margin-left: 0;
+      }
+      @include sp {
+        width: 100%;
+        margin-left: 0;
+        float: none;
       }
     h4{
       font-size: 0.9rem;
@@ -395,6 +437,9 @@ footer {
       font-size: 2.5rem;
       padding: 2% 15% 0 2%;
       line-height: 1.3;
+      @include sp {
+        font-size: 2rem;
+      }
     }
     span {
       border-right: 1px solid;
@@ -422,8 +467,11 @@ footer {
       @include tab {
         position: static;
         height: auto;
-        padding-bottom: 5rem;
+        padding-bottom: 5rem ;
        }
+       @include sp {
+         padding: 3rem 0;
+        }
       .detail {
         position: absolute;
         width: 640px;
@@ -432,6 +480,10 @@ footer {
           width: auto;
           overflow: hidden;
          }
+         @include sp {
+           overflow: auto;
+           padding-bottom: 1rem;
+          }
         &.a01{
           right: 380px;
           .txt{
@@ -439,6 +491,9 @@ footer {
             @include tab {
               padding-top: 120px;
              }
+             @include sp {
+               padding-top: 0;
+              }
           }
         }
         &.a02{
@@ -449,6 +504,9 @@ footer {
             @include tab {
               padding-top: 120px;
              }
+             @include sp {
+               padding-top: 0;
+              }
           }
         }
         &.a03{
@@ -456,6 +514,9 @@ footer {
           left: 0;
           .txt{
             padding-top: 160px;
+            @include sp {
+              padding-top: 0;
+             }
           }
         }
         &.a04{
@@ -463,6 +524,9 @@ footer {
           right: 0;
           .txt{
             padding-top: 160px;
+            @include sp {
+              padding-top: 0;
+             }
           }
         }
         &.a05{
@@ -470,6 +534,9 @@ footer {
           left: 0;
           .txt{
             padding-top: 160px;
+            @include sp {
+              padding-top: 0;
+             }
           }
         }
         &.a06{
@@ -477,6 +544,9 @@ footer {
           right: 0;
           .txt{
             padding-top: 160px;
+            @include sp {
+              padding-top: 0;
+             }
           }
         }
         &.a07{
@@ -484,6 +554,9 @@ footer {
           left: 200px;
           .txt{
             padding-top: 160px;
+            @include sp {
+              padding-top: 0;
+             }
           }
         }
         .img {
@@ -494,12 +567,31 @@ footer {
             @include tab {
               float: left;
              }
+             @include sp {
+               float: none;
+              margin: 0 auto;
+              }
+            }
+          @include sp {
+            float: none;
+            width: 220px;
+           }
+          img{
+            @include sp {
+              width: 220px;
           }
         }
+      }
         .txt {
           width: calc(100% - 371px);
           float:left;
           text-align: left;
+          @include sp {
+            float: none;
+            width: auto;
+            width: 220px;
+            margin: 0 auto;
+           }
           h4 {
             font-size: 0.9rem;
             padding-bottom: 0.2rem;
