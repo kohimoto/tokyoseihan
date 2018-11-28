@@ -3,7 +3,6 @@ $(function(){
   $(".menu li").click(function(){
     var target = $(this).attr("class");
     var speed = 1000; // ミリ秒
-    //var target = $(".head02");
     var targetid = "#" + $(this).attr("class");
     var target = $(targetid);
     if(target.offset() !== undefined) {
