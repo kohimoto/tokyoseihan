@@ -120,6 +120,7 @@ h4 {
 header {
   .container {
     line-height: 1;
+    max-width: 1300px;
   }
   .navbar-default {
     left: 0;
@@ -140,7 +141,16 @@ header {
   .logo-tag {
     h1 {
       vertical-align: middle;
+      a {
+        position: static;
+      }
+      a::after {
+        position: static;
+        height: 0;
+        background: none;
+      }
     }
+
     span {
       font-size: 0.60rem;
       font-family: "Colfax";
@@ -264,12 +274,12 @@ footer {
   }
 }
 #mission {
-  padding: 10rem 0 8.5rem;
+  padding: 10rem 0 8rem;
   overflow:hidden;
 }
 #products {
   .container{
-    padding: 8.5rem 0;
+    padding: 5rem 0;
     .main-box {
       overflow:hidden;
     .box {
@@ -415,7 +425,7 @@ footer {
         position: absolute;
         width: 640px;
         &.a01{
-          top:100px;
+          top:60px;
           right: 380px;
         }
         .img {
@@ -442,7 +452,7 @@ footer {
 
 #news{
   .container{
-    padding: 8.5rem 0;
+      padding: 5.5rem 0 9rem;
     .main-box{
       .date-box{
         overflow: hidden;
@@ -464,6 +474,9 @@ footer {
   }
   .scroll-top{
     padding-bottom: 1.5rem;
+    img{
+      cursor: pointer;
+    }
   }
 }
 
@@ -487,7 +500,7 @@ footer {
   }
 }
 #technology {
-  padding: 5.5rem 0 12rem;
+  padding: 5rem 0 6rem;
   overflow: hidden;
   h2::after {
     top: 105%;

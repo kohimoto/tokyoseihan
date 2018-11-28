@@ -98,7 +98,8 @@ h4 {
   font-weight: normal; }
 
 header .container {
-  line-height: 1; }
+  line-height: 1;
+  max-width: 1300px; }
 
 header .navbar-default {
   left: 0;
@@ -125,6 +126,12 @@ header .navbar-default.sticky {
 
 header .logo-tag h1 {
   vertical-align: middle; }
+  header .logo-tag h1 a {
+    position: static; }
+  header .logo-tag h1 a::after {
+    position: static;
+    height: 0;
+    background: none; }
 
 header .logo-tag span {
   font-size: 0.60rem;
@@ -221,11 +228,11 @@ footer {
     left: 50%; }
 
 #mission {
-  padding: 10rem 0 8.5rem;
+  padding: 10rem 0 8rem;
   overflow: hidden; }
 
 #products .container {
-  padding: 8.5rem 0; }
+  padding: 5rem 0; }
   #products .container .main-box {
     overflow: hidden; }
     #products .container .main-box .box {
@@ -338,7 +345,7 @@ footer {
       position: absolute;
       width: 640px; }
       #products .sub-container .shinto .detail.a01 {
-        top: 100px;
+        top: 60px;
         right: 380px; }
       #products .sub-container .shinto .detail .txt {
         text-align: left; }
@@ -350,7 +357,7 @@ footer {
           line-height: 2.6; }
 
 #news .container {
-  padding: 8.5rem 0; }
+  padding: 5.5rem 0 9rem; }
   #news .container .main-box .date-box {
     overflow: hidden;
     font-size: 0.6rem;
@@ -366,6 +373,8 @@ footer {
 
 #news .scroll-top {
   padding-bottom: 1.5rem; }
+  #news .scroll-top img {
+    cursor: pointer; }
 
 .hanko_foot {
   position: relative; }
@@ -383,7 +392,7 @@ footer {
       display: block; }
 
 #technology {
-  padding: 5.5rem 0 12rem;
+  padding: 5rem 0 6rem;
   overflow: hidden; }
   #technology h2::after {
     top: 105%; }
