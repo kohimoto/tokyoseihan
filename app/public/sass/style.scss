@@ -23,7 +23,7 @@ $gray_color: #646464;
 * media query
 * ======================================================= */
 $tab: 1060px;   // tab
-$sp: 480px;     // sp
+$sp: 600px;     // sp
 @mixin tab {
   @media (max-width: ($tab)) {
     @content;
