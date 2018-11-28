@@ -196,11 +196,22 @@ footer {
     footer {
       height: 120px;
       padding: 70px 15px 0; } }
+  @media (max-width: 480px) {
+    footer {
+      height: auto;
+      padding: 50px 15px; } }
   footer .container {
     max-width: 1300px; }
+    @media (max-width: 480px) {
+      footer .container {
+        text-align: center; } }
     footer .container .foot-left {
       width: 50%;
       float: left; }
+      @media (max-width: 480px) {
+        footer .container .foot-left {
+          width: auto;
+          float: none; } }
       footer .container .foot-left p {
         font-size: 1.2rem;
         font-family: Ryumin Regular KL; }
@@ -216,6 +227,10 @@ footer {
     footer .container .foot-right {
       width: 50%;
       float: left; }
+      @media (max-width: 480px) {
+        footer .container .foot-right {
+          width: auto;
+          float: none; } }
       footer .container .foot-right .copy {
         font-size: 0.5rem;
         text-align: right;
@@ -224,6 +239,9 @@ footer {
         @media (max-width: 1060px) {
           footer .container .foot-right .copy {
             padding-top: 0.5rem; } }
+        @media (max-width: 480px) {
+          footer .container .foot-right .copy {
+            text-align: center; } }
 
 .wrap {
   max-width: 1500px;

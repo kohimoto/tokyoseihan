@@ -216,11 +216,22 @@ footer {
     height: 120px;
     padding: 70px 15px 0;
   }
+  @include sp {
+    height: auto;
+    padding: 50px 15px;
+  }
   .container {
     max-width: 1300px;
+    @include sp {
+      text-align: center;
+    }
     .foot-left {
       width: 50%;
       float: left;
+      @include sp {
+        width: auto;
+        float: none;
+      }
       p {
         font-size: 1.2rem;
         font-family: $font_ryu;
@@ -239,6 +250,10 @@ footer {
     .foot-right {
       width: 50%;
       float: left;
+      @include sp {
+        width: auto;
+        float: none;
+      }
       .copy{
         font-size: 0.5rem;
         text-align: right;
@@ -246,6 +261,9 @@ footer {
         padding-top: 1rem;
         @include tab{
         padding-top: 0.5rem;
+        }
+        @include sp {
+        text-align: center;
         }
       }
     }
