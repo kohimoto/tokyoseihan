@@ -157,7 +157,8 @@ header .navbar-default.sticky {
     transform: scale(0.7);
     -webkit-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
-    transform-origin: 0 0; } }
+    transform-origin: 0 0;
+    float: none; } }
 
 header .logo-tag h1 {
   vertical-align: middle; }
