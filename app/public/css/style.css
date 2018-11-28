@@ -151,7 +151,13 @@ header .navbar-default.sticky {
 @media (max-width: 1060px) {
   header .logo-tag {
     margin: 25px 0;
-    zoom: 0.7; } }
+    margin: 16px 0;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0; } }
 
 header .logo-tag h1 {
   vertical-align: middle; }
