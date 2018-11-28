@@ -22,11 +22,11 @@ $(function(){
     $('body,html').animate({scrollTop: pos_down}, 1000, 'swing');
   });
 
-    //scroll to top
-    $(".scroll-top img").on("click", function() {
-       $("html, body").animate({ scrollTop: 0 }, 1000);
-      return false;
-    });
+  //scroll to top
+  $(".scroll-top img").on("click", function() {
+     $("html, body").animate({ scrollTop: 0 }, 1000);
+    return false;
+  });
 
   //hanko anchor
   $('.anchor a').click(function(){
