@@ -433,7 +433,6 @@ footer {
   .mov-box.last-box {
     margin-bottom: 227px; }
 
-<<<<<<< HEAD
 #corporate {
   padding: 5.5rem 0 12rem;
   overflow: hidden; }
@@ -475,7 +474,7 @@ footer {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
-=======
+
 #contact {
   padding: 10rem 0 227px;
   overflow: hidden; }
@@ -504,4 +503,3 @@ footer {
         line-height: 3; }
         #contact .inner-right dl dd a::after {
           position: relative; }
->>>>>>> 6c9dfea59ec2ccebf83d137b50fdcb383a3f6337
