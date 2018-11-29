@@ -116,6 +116,9 @@ header .container {
     margin: inherit; }
   header .container .navbar-collapse {
     border: none; }
+    @media (max-width: 1060px) {
+      header .container .navbar-collapse {
+        height: 100vh; } }
   @media (max-width: 1060px) {
     header .container .navbar-toggle {
       margin: 10px 0; }
@@ -143,8 +146,9 @@ header .navbar-default {
   @media (max-width: 1060px) {
     header .navbar-default .navbar-nav > li > a {
       display: inline-block;
-      padding: 10px 5px;
-      margin: 12px 40px; } }
+      padding: 0;
+      margin: 28px 30px;
+      font-size: 0.8rem; } }
 
 header .navbar-default.sticky {
   -webkit-transform: translateY(0);
@@ -340,10 +344,10 @@ footer {
       float: none;
       width: 100%; } }
   #main .main-box img {
-    width: 100%;
-    height: calc(100vh - 15px); }
+    width: 100%; }
     @media (max-width: 1060px) {
       #main .main-box img {
+        height: calc(100vh - 15px);
         width: auto;
         position: absolute;
         top: 50%;

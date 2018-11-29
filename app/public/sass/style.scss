@@ -132,6 +132,9 @@ header {
     }
     .navbar-collapse {
       border: none;
+      @include tab {
+        height: 100vh;
+       }
     }
     .navbar-toggle {
       @include tab{
@@ -158,8 +161,9 @@ header {
     .navbar-nav > li > a {
       @include tab{
         display: inline-block;
-        padding: 10px 5px;
-        margin: 12px 40px;
+        padding: 0;
+        margin: 28px 30px;
+        font-size: 0.8rem;
       }
     }
   }
@@ -380,8 +384,8 @@ footer {
      }
     img {
       width: 100%;
-      height: calc(100vh - 15px);
       @include tab {
+        height: calc(100vh - 15px);
          width: auto;
          position: absolute;
          top: 50%;
